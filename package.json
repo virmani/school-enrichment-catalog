@@ -1,0 +1,32 @@
+{
+  "name": "ultracamp-scraper",
+  "version": "1.0.0",
+  "description": "Reusable scraper for UltraCamp enrichment class data",
+  "main": "dist/index.js",
+  "bin": {
+    "ultracamp-scraper": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["scraper", "ultracamp", "enrichment"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "csv-writer": "^1.6.0",
+    "js-yaml": "^4.1.0",
+    "p-queue": "^8.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  }
+}

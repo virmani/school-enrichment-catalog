@@ -1,12 +1,3 @@
-export interface ScraperConfig {
-  idCamp: number;
-  campCode: string;
-  idLocation: number;
-  gradeFilter?: string;
-  rateLimit?: number;
-  timeout?: number;
-}
-
 export interface ClassListing {
   name: string;
   gradeRange: string;
@@ -15,9 +6,8 @@ export interface ClassListing {
 }
 
 export interface ClassDetail {
-  name: string;
   instructor: string;
-  instructorBackground?: string;
+  instructorBackground: string;
   gradeLevels: string;
   dayOfWeek: string;
   time: string;
@@ -40,10 +30,31 @@ export interface GradeRange {
   end: string;
 }
 
-export interface ExportOptions {
-  format: 'yaml' | 'csv' | 'both';
-  outputDir: string;
-  filename?: string;
+export interface ClassData {
+  metadata: {
+    scrapedAt: string;
+    campId: number;
+    campCode: string;
+    locationId: number;
+    gradeFilter?: string;
+    totalClasses: number;
+  };
+  classes: EnrichedClass[];
+}
+
+export type DayOfWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday';
+
+export interface ClassesByDayAndTime {
+  [timeSlot: string]: Record<DayOfWeek, EnrichedClass[]>;
+}
+
+export interface ScraperConfig {
+  idCamp: number;
+  campCode: string;
+  idLocation: number;
+  gradeFilter?: string;
+  rateLimit: number;
+  timeout: number;
 }
 
 export interface ExportMetadata {

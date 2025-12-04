@@ -30,13 +30,6 @@ export class DetailScraper {
       // Also try to get description from specific span if it exists
       const lblDescriptionText = $('#lblDescription').text() || '';
 
-      // Extract class name - look for it before "Description"
-      let name = '';
-      const nameMatch = pageText.match(/(?:Make a Payment|Message Center)\s+([^\n]+?)\s+Description/);
-      if (nameMatch) {
-        name = cleanText(nameMatch[1]);
-      }
-
       // Extract instructor
       let instructor = '';
       const instructorMatch = pageText.match(/Instructor Name:\s*([^\n]+)/);
@@ -213,7 +206,6 @@ export class DetailScraper {
       }
 
       return {
-        name,
         instructor: instructor || 'Unknown',
         instructorBackground: '',
         gradeLevels,

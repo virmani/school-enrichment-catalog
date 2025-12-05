@@ -7,6 +7,13 @@ export function useScreenshot() {
       return;
     }
 
+    // Find the actual WeekView component inside the container
+    const weekViewComponent = weekViewElement.querySelector('.w-full.overflow-x-auto');
+    if (!weekViewComponent) {
+      console.error('WeekView component not found');
+      return;
+    }
+
     // Create temporary container for screenshot
     const container = document.createElement('div');
     container.style.cssText = `
@@ -35,10 +42,12 @@ export function useScreenshot() {
     container.appendChild(title);
 
     // Clone the WeekView content
-    const clonedWeekView = weekViewElement.cloneNode(true) as HTMLElement;
+    const clonedWeekView = weekViewComponent.cloneNode(true) as HTMLElement;
     // Ensure the cloned content fits within max-width
     clonedWeekView.style.maxWidth = '100%';
     clonedWeekView.style.overflow = 'hidden';
+    clonedWeekView.style.display = 'block';
+    clonedWeekView.style.visibility = 'visible';
 
     // Fix text truncation in class cards - remove line-clamp and add proper height
     const classNames = clonedWeekView.querySelectorAll('.line-clamp-2');

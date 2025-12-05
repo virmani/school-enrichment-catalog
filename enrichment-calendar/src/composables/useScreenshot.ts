@@ -15,6 +15,7 @@ export function useScreenshot() {
       top: 0;
       background: white;
       padding: 2rem;
+      max-width: 1024px;
       font-family: system-ui, -apple-system, sans-serif;
     `;
 
@@ -32,6 +33,9 @@ export function useScreenshot() {
 
     // Clone the WeekView content
     const clonedWeekView = weekViewElement.cloneNode(true) as HTMLElement;
+    // Ensure the cloned content fits within max-width
+    clonedWeekView.style.maxWidth = '100%';
+    clonedWeekView.style.overflow = 'hidden';
     container.appendChild(clonedWeekView);
 
     // Add timestamp footer

@@ -53,24 +53,22 @@ export function useViewState() {
 
   function nextDay() {
     const currentIndex = DAYS.indexOf(selectedDay.value);
-    if (currentIndex < DAYS.length - 1) {
-      selectedDay.value = DAYS[currentIndex + 1]!;
-    }
+    const nextIndex = (currentIndex + 1) % DAYS.length;
+    selectedDay.value = DAYS[nextIndex]!;
   }
 
   function previousDay() {
     const currentIndex = DAYS.indexOf(selectedDay.value);
-    if (currentIndex > 0) {
-      selectedDay.value = DAYS[currentIndex - 1]!;
-    }
+    const prevIndex = (currentIndex - 1 + DAYS.length) % DAYS.length;
+    selectedDay.value = DAYS[prevIndex]!;
   }
 
   const canGoNext = () => {
-    return DAYS.indexOf(selectedDay.value) < DAYS.length - 1;
+    return true; // Always can go next in circular mode
   };
 
   const canGoPrevious = () => {
-    return DAYS.indexOf(selectedDay.value) > 0;
+    return true; // Always can go previous in circular mode
   };
 
   // Persist selected day to localStorage

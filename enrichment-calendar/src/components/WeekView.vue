@@ -48,7 +48,7 @@ function hasVisibleClasses(timeSlot: string): boolean {
 
 <template>
   <div class="w-full overflow-x-auto">
-    <div class="min-w-[800px]">
+    <div class="min-w-0 lg:min-w-[800px]">
       <!-- Header row with day names -->
       <div class="grid grid-cols-6 gap-2 mb-4 bg-gray-100 py-3 px-2 rounded-lg shadow-sm">
         <div class="font-bold text-sm text-gray-500"></div>

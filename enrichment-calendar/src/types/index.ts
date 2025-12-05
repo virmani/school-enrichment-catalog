@@ -16,6 +16,8 @@ export type {
 } from '../../../src/types';
 
 // Local types for enrichment-calendar
+export type ViewMode = 'day' | 'week';
+
 export interface MinimizedClassesState {
   minimized: Ref<Set<string>>;
   isMinimized: (sessionId: string) => boolean;

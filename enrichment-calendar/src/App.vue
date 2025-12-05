@@ -3,7 +3,10 @@ import { ref, computed, onMounted } from 'vue';
 import { useClasses } from './composables/useClasses';
 import { useMinimizedClasses } from './composables/useMinimizedClasses';
 import { useScreenshot } from './composables/useScreenshot';
+import { useViewState } from './composables/useViewState';
 import WeekView from './components/WeekView.vue';
+import DayView from './components/DayView.vue';
+import ViewToggle from './components/ViewToggle.vue';
 import ClassDetail from './components/ClassDetail.vue';
 import MinimizedClassesPanel from './components/MinimizedClassesPanel.vue';
 import ScreenshotModal from './components/ScreenshotModal.vue';
@@ -12,13 +15,14 @@ import type { EnrichedClass } from './types';
 const { classes, loading, error, timeSlots, classesByDayAndTime, loadClasses } = useClasses();
 const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes);
 const { captureScreenshot } = useScreenshot();
+const { viewMode, selectedDay, setViewMode, setDay, nextDay, previousDay } = useViewState();
 
 const minimizedSet = computed(() => minimized.value);
 
 const selectedClass = ref<EnrichedClass | null>(null);
 const isModalOpen = ref(false);
 const isScreenshotModalOpen = ref(false);
-const weekViewRef = ref<HTMLElement | null>(null);
+const weekViewContainerRef = ref<HTMLElement | null>(null);
 
 function handleClassClick(cls: EnrichedClass) {
   selectedClass.value = cls;
@@ -51,7 +55,7 @@ function handleScreenshotModalClose() {
 }
 
 function handleGenerateScreenshot(kidName: string) {
-  captureScreenshot(kidName, weekViewRef.value);
+  captureScreenshot(kidName, weekViewContainerRef.value);
   isScreenshotModalOpen.value = false;
 }
 
@@ -72,8 +76,8 @@ onMounted(() => {
           @click="handleScreenshotClick"
           class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
         >
-          <span>📷</span>
-          <span>Screenshot</span>
+          <span>💾</span>
+          <span>Save Schedule</span>
         </button>
       </div>
     </header>
@@ -91,14 +95,31 @@ onMounted(() => {
         <p class="text-gray-600">No classes found.</p>
       </div>
 
-      <div v-else ref="weekViewRef">
-        <WeekView
+      <div v-else>
+        <div ref="weekViewContainerRef">
+          <WeekView
+            v-show="viewMode === 'week'"
+            :time-slots="timeSlots"
+            :classes-by-day-and-time="classesByDayAndTime"
+            :minimized-session-ids="minimizedSet"
+            @class-click="handleClassClick"
+            @minimize="handleMinimize"
+          />
+        </div>
+
+        <DayView
+          v-show="viewMode === 'day'"
+          :selected-day="selectedDay"
           :time-slots="timeSlots"
           :classes-by-day-and-time="classesByDayAndTime"
           :minimized-session-ids="minimizedSet"
           @class-click="handleClassClick"
           @minimize="handleMinimize"
+          @next-day="nextDay"
+          @previous-day="previousDay"
         />
+
+        <ViewToggle v-model="viewMode" />
       </div>
     </main>
 

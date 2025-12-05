@@ -6,12 +6,12 @@ export function parseTimeString(timeStr: string): Date {
   }
 
   const [, hours, minutes, period] = match;
-  let hour = parseInt(hours, 10);
-  const minute = parseInt(minutes, 10);
+  let hour = parseInt(hours!, 10);
+  const minute = parseInt(minutes!, 10);
 
-  if (period.toUpperCase() === 'PM' && hour !== 12) {
+  if (period!.toUpperCase() === 'PM' && hour !== 12) {
     hour += 12;
-  } else if (period.toUpperCase() === 'AM' && hour === 12) {
+  } else if (period!.toUpperCase() === 'AM' && hour === 12) {
     hour = 0;
   }
 
@@ -22,8 +22,8 @@ export function parseTimeString(timeStr: string): Date {
 
 export function compareTimeStrings(a: string, b: string): number {
   // Extract start time from "3:30 PM - 4:30 PM" format
-  const aStart = a.split(' - ')[0];
-  const bStart = b.split(' - ')[0];
+  const aStart = a.split(' - ')[0]!;
+  const bStart = b.split(' - ')[0]!;
 
   const aDate = parseTimeString(aStart);
   const bDate = parseTimeString(bStart);

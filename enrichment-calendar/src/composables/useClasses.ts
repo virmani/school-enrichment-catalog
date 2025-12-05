@@ -27,7 +27,7 @@ export function useClasses() {
       }
 
       if (days.includes(cls.dayOfWeek as DayOfWeek)) {
-        result[cls.time][cls.dayOfWeek as DayOfWeek].push(cls);
+        result[cls.time]![cls.dayOfWeek as DayOfWeek].push(cls);
       }
     });
 

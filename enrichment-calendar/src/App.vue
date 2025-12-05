@@ -77,7 +77,7 @@ onMounted(() => {
           class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
         >
           <span>💾</span>
-          <span>Save Schedule</span>
+          <span>Save</span>
         </button>
       </div>
     </header>

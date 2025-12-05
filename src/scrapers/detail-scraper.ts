@@ -30,9 +30,9 @@ export class DetailScraper {
       // Also try to get description from specific span if it exists
       const lblDescriptionText = $('#lblDescription').text() || '';
 
-      // Extract instructor
+      // Extract instructor - handle both "Instructor Name:" and "Instructor:"
       let instructor = '';
-      const instructorMatch = pageText.match(/Instructor Name:\s*([^\n]+)/);
+      const instructorMatch = pageText.match(/Instructor(?:\s+Name)?:\s*([^\n]+)/);
       if (instructorMatch) {
         const matched = cleanText(instructorMatch[1]);
         // Don't use if it's empty or looks like a schedule line

@@ -1,5 +1,5 @@
 metadata:
-  scrapedAt: '2025-12-05T01:46:52.899Z'
+  scrapedAt: '2025-12-05T06:11:20.962Z'
   campId: 502
   campCode: cis
   locationId: 5710
@@ -400,7 +400,7 @@ classes:
     gradeRange: Grades Kindergarten - 3rd
     sessionId: '546245'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546245&campCode=cis
-    instructor: Unknown
+    instructor: David Flores - DF_Knights
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 3rd
     dayOfWeek: Friday
@@ -430,7 +430,7 @@ classes:
     gradeRange: Grades Kindergarten - 5th
     sessionId: '546199'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546199&campCode=cis
-    instructor: Unknown
+    instructor: Eric Wu, Bucketeers
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 5th
     dayOfWeek: Monday
@@ -445,7 +445,7 @@ classes:
     gradeRange: Grades 1st - 8th
     sessionId: '559626'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559626&campCode=cis
-    instructor: Unknown
+    instructor: GGP Musicians
     instructorBackground: ''
     gradeLevels: Grades 1st - 8th
     dayOfWeek: Monday
@@ -460,7 +460,7 @@ classes:
     gradeRange: Grades 1st - 3rd
     sessionId: '554046'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554046&campCode=cis
-    instructor: Unknown
+    instructor: Orina Lee
     instructorBackground: ''
     gradeLevels: Grades 1st - 3rd
     dayOfWeek: Tuesday
@@ -475,7 +475,7 @@ classes:
     gradeRange: Grades 1st - 3rd
     sessionId: '554814'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554814&campCode=cis
-    instructor: Unknown
+    instructor: Nehemiah A.
     instructorBackground: ''
     gradeLevels: Grades 1st - 3rd
     dayOfWeek: Wednesday
@@ -490,7 +490,7 @@ classes:
     gradeRange: Grades 3rd - 5th
     sessionId: '554087'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554087&campCode=cis
-    instructor: Unknown
+    instructor: Luan Laoshi / Zhao Laoshi
     instructorBackground: ''
     gradeLevels: Grades 3rd - 5th
     dayOfWeek: Wednesday
@@ -505,7 +505,7 @@ classes:
     gradeRange: Grades 3rd - 5th
     sessionId: '554088'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554088&campCode=cis
-    instructor: Unknown
+    instructor: Luan Laoshi / Zhao Laoshi
     instructorBackground: ''
     gradeLevels: Grades 3rd - 5th
     dayOfWeek: Thursday
@@ -550,7 +550,7 @@ classes:
     gradeRange: Grades Kindergarten - 3rd
     sessionId: '546341'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546341&campCode=cis
-    instructor: Unknown
+    instructor: Coach Paivi & Coach Victor
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 3rd
     dayOfWeek: Wednesday
@@ -565,7 +565,7 @@ classes:
     gradeRange: Grades 2nd - 5th
     sessionId: '553292'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553292&campCode=cis
-    instructor: Unknown
+    instructor: Wyatt Cameron
     instructorBackground: ''
     gradeLevels: Grades 2nd - 5th
     dayOfWeek: Wednesday
@@ -595,7 +595,7 @@ classes:
     gradeRange: Grades 1st - 5th
     sessionId: '554330'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554330&campCode=cis
-    instructor: Unknown
+    instructor: Coach Sky
     instructorBackground: ''
     gradeLevels: Grades 1st - 5th
     dayOfWeek: Monday
@@ -610,7 +610,7 @@ classes:
     gradeRange: Grades 1st - 5th
     sessionId: '553949'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553949&campCode=cis
-    instructor: Unknown
+    instructor: Victor Chung / Frederick Wong
     instructorBackground: ''
     gradeLevels: Grades 1st - 5th
     dayOfWeek: Thursday
@@ -640,7 +640,7 @@ classes:
     gradeRange: Grades Kindergarten - 5th
     sessionId: '559783'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559783&campCode=cis
-    instructor: Unknown
+    instructor: Bonic Zhang Laoshi
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 5th
     dayOfWeek: Friday
@@ -655,7 +655,7 @@ classes:
     gradeRange: Grades 3rd - 8th
     sessionId: '559953'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559953&campCode=cis
-    instructor: Unknown
+    instructor: Bonic Zhang Laoshi
     instructorBackground: ''
     gradeLevels: Grades 3rd - 8th
     dayOfWeek: Friday
@@ -670,7 +670,7 @@ classes:
     gradeRange: Grades Kindergarten - 5th
     sessionId: '553952'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553952&campCode=cis
-    instructor: Unknown
+    instructor: Victor Chung / Frederick Wong
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 5th
     dayOfWeek: Friday
@@ -685,7 +685,7 @@ classes:
     gradeRange: Grades 3rd - 8th
     sessionId: '553290'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553290&campCode=cis
-    instructor: Unknown
+    instructor: GGP, Jonas Satuito
     instructorBackground: ''
     gradeLevels: Grades 3rd - 8th
     dayOfWeek: Friday
@@ -700,7 +700,7 @@ classes:
     gradeRange: Grades 3rd - 8th
     sessionId: '553291'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553291&campCode=cis
-    instructor: Unknown
+    instructor: GGP, Jonas Satuito
     instructorBackground: ''
     gradeLevels: Grades 3rd - 8th
     dayOfWeek: Friday

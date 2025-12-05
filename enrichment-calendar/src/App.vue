@@ -4,6 +4,7 @@ import { useClasses } from './composables/useClasses';
 import { useMinimizedClasses } from './composables/useMinimizedClasses';
 import { useScreenshot } from './composables/useScreenshot';
 import { useViewState } from './composables/useViewState';
+import { useAnalytics } from './composables/useAnalytics';
 import WeekView from './components/WeekView.vue';
 import DayView from './components/DayView.vue';
 import ViewToggle from './components/ViewToggle.vue';
@@ -16,6 +17,7 @@ const { classes, loading, error, timeSlots, classesByDayAndTime, loadClasses } =
 const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes);
 const { captureScreenshot } = useScreenshot();
 const { viewMode, selectedDay, nextDay, previousDay } = useViewState();
+const { trackClassMinimize, trackClassRestore, trackRestoreAll, trackScreenshotGenerated } = useAnalytics();
 
 const minimizedSet = computed(() => minimized.value);
 
@@ -35,15 +37,25 @@ function handleModalClose() {
 }
 
 function handleMinimize(sessionId: string) {
+  const cls = classes.value.find(c => c.sessionId === sessionId);
   minimize(sessionId);
+  if (cls) {
+    trackClassMinimize(cls.name, sessionId);
+  }
 }
 
 function handleRestore(sessionId: string) {
+  const cls = classes.value.find(c => c.sessionId === sessionId);
   restore(sessionId);
+  if (cls) {
+    trackClassRestore(cls.name, sessionId);
+  }
 }
 
 function handleRestoreAll() {
+  const count = minimizedClasses.value.length;
   restoreAll();
+  trackRestoreAll(count);
 }
 
 function handleScreenshotClick() {
@@ -56,6 +68,7 @@ function handleScreenshotModalClose() {
 
 function handleGenerateScreenshot(kidName: string) {
   captureScreenshot(kidName, weekViewContainerRef.value);
+  trackScreenshotGenerated(kidName);
   isScreenshotModalOpen.value = false;
 }
 

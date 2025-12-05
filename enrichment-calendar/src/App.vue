@@ -15,7 +15,7 @@ import type { EnrichedClass } from './types';
 const { classes, loading, error, timeSlots, classesByDayAndTime, loadClasses } = useClasses();
 const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes);
 const { captureScreenshot } = useScreenshot();
-const { viewMode, selectedDay, setViewMode, setDay, nextDay, previousDay } = useViewState();
+const { viewMode, selectedDay, nextDay, previousDay } = useViewState();
 
 const minimizedSet = computed(() => minimized.value);
 

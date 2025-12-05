@@ -18,7 +18,7 @@ defineEmits<{
   >
     <button
       @click.stop="$emit('minimize', classData.sessionId)"
-      class="absolute top-1 right-1 w-5 h-5 flex items-center justify-center rounded bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity text-sm font-bold"
+      class="absolute top-1 right-1 w-5 h-5 flex items-center justify-center rounded bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity text-sm font-bold"
       title="Minimize this class"
     >
       −

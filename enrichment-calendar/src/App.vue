@@ -67,17 +67,17 @@ onMounted(() => {
 <template>
   <div class="min-h-screen bg-gray-50">
     <header class="bg-white shadow-sm">
-      <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <h1 class="text-3xl font-bold text-gray-800">
+      <div class="max-w-7xl mx-auto px-4 py-3 sm:py-4 lg:py-6 flex justify-between items-center gap-3">
+        <h1 class="text-lg sm:text-2xl lg:text-3xl font-bold text-gray-800">
           Enrichment Classes - 3rd Grade
         </h1>
         <button
           v-if="!loading && !error && classes.length > 0"
           @click="handleScreenshotClick"
-          class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
+          class="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base font-semibold rounded-lg transition-colors whitespace-nowrap"
         >
           <span>💾</span>
-          <span>Save</span>
+          <span class="hidden xs:inline sm:inline">Save</span>
         </button>
       </div>
     </header>

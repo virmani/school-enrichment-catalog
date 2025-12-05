@@ -100,25 +100,25 @@ const hasAnyClasses = () => {
 <template>
   <div ref="containerRef" class="w-full max-w-2xl mx-auto touch-pan-y">
     <!-- Day navigation header -->
-    <div class="mb-6 flex items-center justify-between bg-white rounded-lg shadow-sm p-4">
+    <div class="mb-4 sm:mb-6 flex items-center justify-between bg-white rounded-lg shadow-sm p-2.5 sm:p-4">
       <button
         @click="emit('previousDay')"
-        class="p-2 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+        class="p-1.5 sm:p-2 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         aria-label="Previous day"
       >
-        <span class="text-2xl">←</span>
+        <span class="text-xl sm:text-2xl">←</span>
       </button>
 
-      <h2 class="text-2xl font-bold text-gray-800">
+      <h2 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800">
         {{ selectedDay }}
       </h2>
 
       <button
         @click="emit('nextDay')"
-        class="p-2 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+        class="p-1.5 sm:p-2 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         aria-label="Next day"
       >
-        <span class="text-2xl">→</span>
+        <span class="text-xl sm:text-2xl">→</span>
       </button>
     </div>
 

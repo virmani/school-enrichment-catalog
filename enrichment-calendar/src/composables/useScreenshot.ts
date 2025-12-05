@@ -11,16 +11,15 @@ export function useScreenshot() {
     const container = document.createElement('div');
     container.style.cssText = `
       position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      left: 0;
+      top: 100vh;
       background: white;
       padding: 2rem;
       max-width: 1024px;
+      width: 1024px;
       font-family: system-ui, -apple-system, sans-serif;
-      opacity: 0;
       pointer-events: none;
-      z-index: -1;
+      z-index: 9999;
     `;
 
     // Add title

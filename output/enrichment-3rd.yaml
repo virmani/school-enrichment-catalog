@@ -1,5 +1,5 @@
 metadata:
-  scrapedAt: '2025-12-05T06:11:20.962Z'
+  scrapedAt: '2025-12-05T06:54:57.378Z'
   campId: 502
   campCode: cis
   locationId: 5710
@@ -295,7 +295,7 @@ classes:
     gradeRange: Grades 3rd - 5th
     sessionId: '552939'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552939&campCode=cis
-    instructor: Unknown
+    instructor: VAC
     instructorBackground: ''
     gradeLevels: Grades 3rd - 5th
     dayOfWeek: Monday
@@ -310,7 +310,7 @@ classes:
     gradeRange: Grades Kindergarten - 8th
     sessionId: '546284'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546284&campCode=cis
-    instructor: Unknown
+    instructor: Fiona Kwee
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 8th
     dayOfWeek: Monday
@@ -325,7 +325,7 @@ classes:
     gradeRange: Grades Kindergarten - 8th
     sessionId: '546926'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546926&campCode=cis
-    instructor: Unknown
+    instructor: Chef Mo
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 8th
     dayOfWeek: Tuesday
@@ -340,7 +340,7 @@ classes:
     gradeRange: Grades Kindergarten - 8th
     sessionId: '546909'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546909&campCode=cis
-    instructor: Unknown
+    instructor: Chef Mo
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 8th
     dayOfWeek: Wednesday
@@ -355,7 +355,7 @@ classes:
     gradeRange: Grades Kindergarten - 8th
     sessionId: '546352'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546352&campCode=cis
-    instructor: Unknown
+    instructor: Joey Silberman [CAIS Staff]
     instructorBackground: ''
     gradeLevels: Grades Kindergarten - 8th
     dayOfWeek: Wednesday
@@ -370,7 +370,7 @@ classes:
     gradeRange: Grades 3rd - 5th
     sessionId: '553289'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553289&campCode=cis
-    instructor: Unknown
+    instructor: Tu Nguyen, VAC
     instructorBackground: ''
     gradeLevels: Grades 3rd - 5th
     dayOfWeek: Thursday
@@ -385,7 +385,7 @@ classes:
     gradeRange: Grades 3rd - 5th
     sessionId: '553958'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553958&campCode=cis
-    instructor: Unknown
+    instructor: Cindy Huang (CAIS Music Teacher)
     instructorBackground: ''
     gradeLevels: Grades 3rd - 5th
     dayOfWeek: Friday
@@ -415,7 +415,7 @@ classes:
     gradeRange: Grades 1st - 8th
     sessionId: '546288'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546288&campCode=cis
-    instructor: Unknown
+    instructor: Fiona Kwee
     instructorBackground: ''
     gradeLevels: Grades 1st - 8th
     dayOfWeek: Friday

@@ -10,13 +10,17 @@ export function useScreenshot() {
     // Create temporary container for screenshot
     const container = document.createElement('div');
     container.style.cssText = `
-      position: absolute;
-      left: -9999px;
-      top: 0;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       background: white;
       padding: 2rem;
       max-width: 1024px;
       font-family: system-ui, -apple-system, sans-serif;
+      opacity: 0;
+      pointer-events: none;
+      z-index: -1;
     `;
 
     // Add title
@@ -64,12 +68,16 @@ export function useScreenshot() {
     document.body.appendChild(container);
 
     try {
+      // Wait for styles to be fully computed and layout to stabilize
+      await new Promise(resolve => setTimeout(resolve, 100));
+
       // Capture with html2canvas
       const canvas = await html2canvas(container, {
         scale: 2,
         backgroundColor: '#ffffff',
         logging: false,
         useCORS: true,
+        windowHeight: container.scrollHeight,
       });
 
       // Convert to blob and download

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue';
 import type { EnrichedClass, ClassesByDayAndTime, DayOfWeek } from '../types';
 import ClassCard from './ClassCard.vue';
 
@@ -19,6 +20,48 @@ const emit = defineEmits<{
   nextDay: [];
   previousDay: [];
 }>();
+
+const containerRef = ref<HTMLElement | null>(null);
+let touchStartX = 0;
+let touchEndX = 0;
+
+function handleTouchStart(e: TouchEvent) {
+  touchStartX = e.changedTouches[0]!.screenX;
+}
+
+function handleTouchEnd(e: TouchEvent) {
+  touchEndX = e.changedTouches[0]!.screenX;
+  handleSwipe();
+}
+
+function handleSwipe() {
+  const swipeThreshold = 50; // minimum swipe distance in pixels
+  const diff = touchStartX - touchEndX;
+
+  if (Math.abs(diff) > swipeThreshold) {
+    if (diff > 0) {
+      // Swiped left - go to next day
+      emit('nextDay');
+    } else {
+      // Swiped right - go to previous day
+      emit('previousDay');
+    }
+  }
+}
+
+onMounted(() => {
+  if (containerRef.value) {
+    containerRef.value.addEventListener('touchstart', handleTouchStart, { passive: true });
+    containerRef.value.addEventListener('touchend', handleTouchEnd, { passive: true });
+  }
+});
+
+onUnmounted(() => {
+  if (containerRef.value) {
+    containerRef.value.removeEventListener('touchstart', handleTouchStart);
+    containerRef.value.removeEventListener('touchend', handleTouchEnd);
+  }
+});
 
 const dayColors: Record<DayOfWeek, string> = {
   Monday: 'bg-blue-50',
@@ -55,7 +98,7 @@ const hasAnyClasses = () => {
 </script>
 
 <template>
-  <div class="w-full max-w-2xl mx-auto">
+  <div ref="containerRef" class="w-full max-w-2xl mx-auto touch-pan-y">
     <!-- Day navigation header -->
     <div class="mb-6 flex items-center justify-between bg-white rounded-lg shadow-sm p-4">
       <button

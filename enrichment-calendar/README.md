@@ -1,5 +1,43 @@
-# Vue 3 + TypeScript + Vite
+# Enrichment Calendar
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue 3 + TypeScript + Vite app for viewing school enrichment class schedules.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Installation
+
+```bash
+npm install
+```
+
+## Update Data
+
+Copy scraped YAML file to app:
+
+```bash
+# Update with 3rd grade data
+npm run update-data:3rd
+
+# Update with all grades data
+npm run update-data:all
+```
+
+## Development Server
+
+Start local dev server:
+
+```bash
+npm run dev
+```
+
+Server runs at http://localhost:5173/school-enrichment-catalog/
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update-data:3rd": "cp ../output/enrichment-3rd.yaml src/assets/enrichment-3rd.yaml",
+    "update-data:all": "cp ../output/enrichment-all.yaml src/assets/enrichment-3rd.yaml"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",

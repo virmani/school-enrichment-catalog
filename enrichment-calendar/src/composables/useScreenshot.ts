@@ -39,6 +39,20 @@ export function useScreenshot() {
     // Ensure the cloned content fits within max-width
     clonedWeekView.style.maxWidth = '100%';
     clonedWeekView.style.overflow = 'hidden';
+
+    // Fix text truncation in class cards - remove line-clamp and add proper height
+    const classNames = clonedWeekView.querySelectorAll('.line-clamp-2');
+    classNames.forEach((el) => {
+      const element = el as HTMLElement;
+      element.style.display = 'block';
+      element.style.webkitLineClamp = 'unset';
+      element.style.webkitBoxOrient = 'unset';
+      element.style.overflow = 'visible';
+      element.style.textOverflow = 'clip';
+      element.style.lineHeight = '1.25rem';
+      element.style.minHeight = '2.5rem'; // 2 lines minimum
+    });
+
     container.appendChild(clonedWeekView);
 
     // Add timestamp footer

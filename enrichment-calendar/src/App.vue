@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useClasses } from './composables/useClasses';
 import { useMinimizedClasses } from './composables/useMinimizedClasses';
+import { useClassStatus } from './composables/useClassStatus';
 import { useScreenshot } from './composables/useScreenshot';
 import { useViewState } from './composables/useViewState';
 import { useAnalytics } from './composables/useAnalytics';
@@ -15,9 +16,10 @@ import type { EnrichedClass } from './types';
 
 const { classes, loading, error, timeSlots, classesByDayAndTime, loadClasses } = useClasses();
 const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes);
+const { getStatus, toggleStatus } = useClassStatus();
 const { captureScreenshot } = useScreenshot();
 const { viewMode, selectedDay, nextDay, previousDay } = useViewState();
-const { trackClassMinimize, trackClassRestore, trackRestoreAll, trackScreenshotGenerated } = useAnalytics();
+const { trackClassMinimize, trackClassRestore, trackRestoreAll, trackScreenshotGenerated, trackStatusChange } = useAnalytics();
 
 const minimizedSet = computed(() => minimized.value);
 
@@ -56,6 +58,19 @@ function handleRestoreAll() {
   const count = minimizedClasses.value.length;
   restoreAll();
   trackRestoreAll(count);
+}
+
+function handleToggleStatus(sessionId: string, targetStatus: 'signed_up' | 'considering') {
+  const cls = classes.value.find(c => c.sessionId === sessionId);
+  const oldStatus = getStatus(sessionId);
+
+  toggleStatus(sessionId, targetStatus);
+
+  const newStatus = getStatus(sessionId);
+
+  if (cls) {
+    trackStatusChange(cls.name, sessionId, oldStatus, newStatus);
+  }
 }
 
 function handleScreenshotClick() {
@@ -115,8 +130,10 @@ onMounted(() => {
             :time-slots="timeSlots"
             :classes-by-day-and-time="classesByDayAndTime"
             :minimized-session-ids="minimizedSet"
+            :get-status="getStatus"
             @class-click="handleClassClick"
             @minimize="handleMinimize"
+            @toggle-status="handleToggleStatus"
           />
         </div>
 
@@ -126,8 +143,10 @@ onMounted(() => {
           :time-slots="timeSlots"
           :classes-by-day-and-time="classesByDayAndTime"
           :minimized-session-ids="minimizedSet"
+          :get-status="getStatus"
           @class-click="handleClassClick"
           @minimize="handleMinimize"
+          @toggle-status="handleToggleStatus"
           @next-day="nextDay"
           @previous-day="previousDay"
         />

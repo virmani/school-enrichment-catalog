@@ -31,11 +31,26 @@ export function useAnalytics() {
     });
   };
 
+  const trackStatusChange = (
+    className: string,
+    sessionId: string,
+    oldStatus: 'signed_up' | 'considering' | null,
+    newStatus: 'signed_up' | 'considering' | null
+  ) => {
+    trackEvent('class_status_changed', {
+      class_name: className,
+      session_id: sessionId,
+      old_status: oldStatus || 'none',
+      new_status: newStatus || 'none',
+    });
+  };
+
   return {
     trackEvent,
     trackClassMinimize,
     trackClassRestore,
     trackRestoreAll,
     trackScreenshotGenerated,
+    trackStatusChange,
   };
 }

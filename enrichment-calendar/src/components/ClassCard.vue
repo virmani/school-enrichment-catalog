@@ -1,14 +1,18 @@
 <script setup lang="ts">
-import type { EnrichedClass } from '../types';
+import type { EnrichedClass, ClassStatus } from '../types';
 
 interface Props {
   classData: EnrichedClass;
+  status?: ClassStatus;
 }
 
-defineProps<Props>();
+withDefaults(defineProps<Props>(), {
+  status: null
+});
 
 defineEmits<{
   minimize: [sessionId: string];
+  toggleStatus: [sessionId: string, targetStatus: 'signed_up' | 'considering'];
 }>();
 </script>
 
@@ -32,5 +36,36 @@ defineEmits<{
     <p class="text-xs font-medium text-blue-600">
       {{ classData.cost }}
     </p>
+
+    <!-- Status Toggle Buttons -->
+    <div class="mt-2 flex gap-1.5">
+      <button
+        @click.stop="$emit('toggleStatus', classData.sessionId, 'signed_up')"
+        :class="[
+          'flex-1 text-[10px] font-semibold px-2 py-1 rounded border transition-colors',
+          status === 'signed_up'
+            ? 'bg-green-500 border-green-600 text-white'
+            : 'bg-white border-gray-300 text-gray-700 hover:bg-green-50 hover:border-green-400'
+        ]"
+        :title="status === 'signed_up' ? 'Remove signed up status' : 'Mark as signed up'"
+        :aria-pressed="status === 'signed_up'"
+      >
+        ✓ Sign Up
+      </button>
+
+      <button
+        @click.stop="$emit('toggleStatus', classData.sessionId, 'considering')"
+        :class="[
+          'flex-1 text-[10px] font-semibold px-2 py-1 rounded border transition-colors',
+          status === 'considering'
+            ? 'bg-amber-500 border-amber-600 text-white'
+            : 'bg-white border-gray-300 text-gray-700 hover:bg-amber-50 hover:border-amber-400'
+        ]"
+        :title="status === 'considering' ? 'Remove considering status' : 'Mark as considering'"
+        :aria-pressed="status === 'considering'"
+      >
+        ★ Maybe
+      </button>
+    </div>
   </div>
 </template>

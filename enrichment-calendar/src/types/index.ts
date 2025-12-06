@@ -17,6 +17,7 @@ export type {
 
 // Local types for enrichment-calendar
 export type ViewMode = 'day' | 'week';
+export type ClassStatus = 'signed_up' | 'considering' | null;
 
 export interface MinimizedClassesState {
   minimized: Ref<Set<string>>;

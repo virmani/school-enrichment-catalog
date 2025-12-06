@@ -1,20 +1,23 @@
 <script setup lang="ts">
-import type { EnrichedClass, ClassesByDayAndTime, DayOfWeek } from '../types';
+import type { EnrichedClass, ClassesByDayAndTime, DayOfWeek, ClassStatus } from '../types';
 import ClassCard from './ClassCard.vue';
 
 interface Props {
   timeSlots: string[];
   classesByDayAndTime: ClassesByDayAndTime;
   minimizedSessionIds?: Set<string>;
+  getStatus?: (sessionId: string) => ClassStatus;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  minimizedSessionIds: () => new Set()
+  minimizedSessionIds: () => new Set(),
+  getStatus: () => () => null
 });
 
 const emit = defineEmits<{
   classClick: [cls: EnrichedClass];
   minimize: [sessionId: string];
+  toggleStatus: [sessionId: string, targetStatus: 'signed_up' | 'considering'];
 }>();
 
 const days: DayOfWeek[] = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -87,8 +90,10 @@ function hasVisibleClasses(timeSlot: string): boolean {
                   v-for="cls in getClassesForTimeAndDay(timeSlot, day)"
                   :key="cls.sessionId"
                   :class-data="cls"
+                  :status="getStatus?.(cls.sessionId)"
                   @click="handleClassClick(cls)"
                   @minimize="emit('minimize', $event)"
+                  @toggle-status="(sessionId, targetStatus) => emit('toggleStatus', sessionId, targetStatus)"
                 />
               </div>
             </div>

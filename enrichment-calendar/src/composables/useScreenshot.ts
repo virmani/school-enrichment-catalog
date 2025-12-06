@@ -22,8 +22,8 @@ export function useScreenshot() {
       top: 100vh;
       background: white;
       padding: 2rem;
-      max-width: 1024px;
-      width: 1024px;
+      max-width: 1400px;
+      width: 1400px;
       font-family: system-ui, -apple-system, sans-serif;
       pointer-events: none;
       z-index: 9999;

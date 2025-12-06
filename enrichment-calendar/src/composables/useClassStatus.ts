@@ -1,5 +1,4 @@
 import { ref, watch } from 'vue';
-import type { Ref } from 'vue';
 import type { ClassStatus } from '../types';
 
 const STORAGE_KEY = 'enrichment-calendar-class-status';

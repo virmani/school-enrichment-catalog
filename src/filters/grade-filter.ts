@@ -11,7 +11,7 @@ export function matchesGrade(gradeRange: string, targetGrade: string): boolean {
   const startNum = gradeToNumber(range.start);
   const endNum = gradeToNumber(range.end);
 
-  if (targetNum === -1 || startNum === -1 || endNum === -1) {
+  if (targetNum === -999 || startNum === -999 || endNum === -999) {
     // Fallback to string comparison if parsing failed
     const normalizedTarget = normalizeGrade(targetGrade);
     const normalizedStart = normalizeGrade(range.start);

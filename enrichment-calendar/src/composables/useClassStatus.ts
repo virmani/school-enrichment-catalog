@@ -1,13 +1,18 @@
 import { ref, watch } from 'vue';
-import type { ClassStatus } from '../types';
+import type { Ref } from 'vue';
+import type { ClassStatus, Grade } from '../types';
 
-const STORAGE_KEY = 'enrichment-calendar-class-status';
+const STORAGE_PREFIX = 'enrichment-calendar-class-status';
 
-export function useClassStatus() {
+function getStorageKey(grade: Grade | null): string {
+  return grade ? `${STORAGE_PREFIX}-${grade}` : STORAGE_PREFIX;
+}
+
+export function useClassStatus(gradeRef: Ref<Grade | null>) {
   // Load from localStorage
-  const loadFromStorage = (): Map<string, ClassStatus> => {
+  const loadFromStorage = (grade: Grade | null): Map<string, ClassStatus> => {
     try {
-      const stored = localStorage.getItem(STORAGE_KEY);
+      const stored = localStorage.getItem(getStorageKey(grade));
       if (stored) {
         const obj = JSON.parse(stored);
         return new Map(Object.entries(obj));
@@ -19,20 +24,25 @@ export function useClassStatus() {
   };
 
   // Save to localStorage
-  const saveToStorage = (statusMap: Map<string, ClassStatus>) => {
+  const saveToStorage = (statusMap: Map<string, ClassStatus>, grade: Grade | null) => {
     try {
       const obj = Object.fromEntries(statusMap);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(obj));
+      localStorage.setItem(getStorageKey(grade), JSON.stringify(obj));
     } catch (error) {
       console.error('Failed to save class status to localStorage:', error);
     }
   };
 
-  const statuses = ref<Map<string, ClassStatus>>(loadFromStorage());
+  const statuses = ref<Map<string, ClassStatus>>(loadFromStorage(gradeRef.value));
+
+  // Reload when grade changes
+  watch(gradeRef, (newGrade) => {
+    statuses.value = loadFromStorage(newGrade);
+  });
 
   // Auto-persist on changes
   watch(statuses, (newMap) => {
-    saveToStorage(newMap);
+    saveToStorage(newMap, gradeRef.value);
   }, { deep: true });
 
   const getStatus = (sessionId: string): ClassStatus => {

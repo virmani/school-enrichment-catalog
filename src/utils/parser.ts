@@ -1,6 +1,9 @@
 import { GradeRange } from '../types';
 
 const GRADE_MAP: Record<string, string> = {
+  'p2': 'P2',
+  'p3': 'P3',
+  'p4': 'P4',
   'kindergarten': 'K',
   'k': 'K',
   'tk': 'TK',
@@ -37,7 +40,10 @@ export function normalizeGrade(input: string): string {
 
 export function gradeToNumber(grade: string): number {
   const normalized = normalizeGrade(grade);
-  if (normalized === 'TK') return -1;
+  if (normalized === 'P2') return -3;
+  if (normalized === 'P3') return -2;
+  if (normalized === 'P4') return -1;
+  if (normalized === 'TK') return -0.5;
   if (normalized === 'K') return 0;
 
   const match = normalized.match(/^(\d+)/);
@@ -45,7 +51,7 @@ export function gradeToNumber(grade: string): number {
     return parseInt(match[1], 10);
   }
 
-  return -1;
+  return -999; // Use -999 to indicate parse failure (distinct from valid negative grades)
 }
 
 export function parseGradeRange(text: string): GradeRange | null {

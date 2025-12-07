@@ -1,10 +1,10 @@
 metadata:
-  scrapedAt: '2025-12-06T23:44:43.602Z'
+  scrapedAt: '2025-12-06T23:45:31.213Z'
   campId: 502
   campCode: cis
   locationId: 5710
-  gradeFilter: 3rd
-  totalClasses: 48
+  gradeFilter: 5th
+  totalClasses: 44
 classes:
   - name: Textiles with Issy
     gradeRange: Grades 1st - 6th
@@ -21,36 +21,6 @@ classes:
     location: CAIS K - 8th
     cost: $1,250.00
     programOverview: Come enjoy the creative world of textiles with Issy. Students will learn the basics of embroidery, hand sewing and even learn to use the sewing machine. Students will move at their own pace and bring home projects as they finish them. Pillows, clothing, bags, quilts and more! All abilities are welcome.
-  - name: 'Art Explorers: Around the World in 8 Crafts'
-    gradeRange: Grades Kindergarten - 3rd
-    sessionId: '552778'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552778&campCode=cis
-    instructor: Dragonfly Designs
-    instructorBackground: ''
-    gradeLevels: Grades Kindergarten - 3rd
-    dayOfWeek: Tuesday
-    time: 3:30 PM - 4:30 PM
-    startDate: 1/13/2026
-    endDate: 6/9/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $850.00
-    programOverview: Let your child’s imagination soar as we journey across continents through the lens of art! Each week, students will explore a new culture by creating folk art inspired by global traditions—like Japanese fish kites, Mexican tin hearts, and Australian dot paintings. Along the way, students build cultural awareness, global curiosity, and creative confidence while working with diverse materials. This class encourages empathy, respect, and wonder through hands-on learning.
-  - name: 'Binary Beading: Code, Create & Communicate! [S26]'
-    gradeRange: Grades 2nd - 4th
-    sessionId: '547196'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547196&campCode=cis
-    instructor: Dragonfly Designs
-    instructorBackground: ''
-    gradeLevels: Grades 2nd - 4th
-    dayOfWeek: Tuesday
-    time: 4:45 PM - 5:45 PM
-    startDate: 1/13/2026
-    endDate: 6/9/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $850.00
-    programOverview: Where creativity meets code! In this hands-on STEAM class, kids explore binary code by crafting bead work that spells secret messages. They’ll build patterning and sequencing skills, early tech literacy, and creative confidence—all through play. This class supports brain development and self-expression while showing kids that art and technology go hand-in-hand.
   - name: Storytelling through Comics and Basic Animation
     gradeRange: Grades 1st - 8th
     sessionId: '546252'
@@ -81,21 +51,6 @@ classes:
     location: CAIS K - 8th
     cost: $1,170.00
     programOverview: Yarn Club – Keep Creating, Keep Crafting! Whether you're just curious or already hooked, Yarn Club is the perfect place to dive into cozy crafting with a community of fellow makers! From beginner-friendly knitting and crocheting to playful weaving and yarn-based projects, each session offers something new to try or build upon—at your own pace. Returning students will continue developing their skills while taking on more creative challenges—think mini plushies, wall hangings, or custom accessories. New to yarn? No problem! We'll start with the basics and guide you every step of the way. It’s a welcoming space to unwind, explore, and **actually finish projects you’re proud of**. Great for kids who love to craft, want to keep progressing, or just want a relaxing, creative outlet after school.
-  - name: 'Art Lab: Science Meets Creativity'
-    gradeRange: Grades Kindergarten - 3rd
-    sessionId: '552775'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552775&campCode=cis
-    instructor: Dragonfly Designs
-    instructorBackground: ''
-    gradeLevels: Grades Kindergarten - 3rd
-    dayOfWeek: Wednesday
-    time: 4:45 PM - 5:45 PM
-    startDate: 1/14/2026
-    endDate: 6/10/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $850.00
-    programOverview: Where creativity and curiosity collide! Each week, students engage in guided experiments that blend art and science—like salt & watercolor reactions, magnetic painting, and sun prints. Alongside beautiful take-home projects, kids explore cause and effect, color theory, and basic chemistry in a playful, age-appropriate way. It’s STEAM learning in its most colorful form!
   - name: Textile Tinkering Lab
     gradeRange: Grades 2nd - 5th
     sessionId: '554348'
@@ -126,6 +81,21 @@ classes:
     location: CAIS K - 8th
     cost: $800.00
     programOverview: Clay art class helps children step away from screens and use their hands to create. By kneading and shaping clay, they strengthen fine motor skills, improve hand–eye coordination, and spark creativity and imagination. Each piece they make reflects their ideas and confidence. Children discover and explore different cultures by creating art with clay.
+  - name: 'Chibi to Epic: Create Your Own Manga!'
+    gradeRange: Grades 5th - 8th
+    sessionId: '546259'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546259&campCode=cis
+    instructor: Mishra Shuchita and TBD
+    instructorBackground: ''
+    gradeLevels: Grades 5th - 8th
+    dayOfWeek: Thursday
+    time: 3:45 PM - 4:45 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $780.00
+    programOverview: From adorable chibis to bold, action-packed epics, this workshop invites you to dive into the world of manga creation! Students will explore the fundamentals of manga storytelling—character design, panel composition, pacing, and expressive visual language. Through hands-on drawing exercises and story development sessions, you’ll learn how to bring your own characters and narratives to life, whether it’s a slice-of-life comedy or an adventure fantasy. By the end of the class, each participant will create a short, original manga ready to share in a mini showcase. No prior experience needed—just your imagination and love for stories!
   - name: Fantastical Clay Class with Issy
     gradeRange: Grades Kindergarten - 5th
     sessionId: '552785'
@@ -141,21 +111,6 @@ classes:
     location: CAIS K - 8th
     cost: $1,250.00
     programOverview: An art class like never before. Students will get to experience the full benefits of the new campus' ceramic studio beyond their regular art curriculum. Students will hand build, experiment with new glazes and learn how the kilns work. They will learn new skills they haven't gotten during the school day. They will bring home their pieces as they finish them! This new class will be a lot of fun!
-  - name: 'Maker''s Lab: After School Art Club'
-    gradeRange: Grades 2nd - 4th
-    sessionId: '547389'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547389&campCode=cis
-    instructor: Dragonfly Designs
-    instructorBackground: ''
-    gradeLevels: Grades 2nd - 4th
-    dayOfWeek: Thursday
-    time: 4:45 PM - 5:45 PM
-    startDate: 1/15/2026
-    endDate: 6/4/2026
-    numberOfClasses: 17
-    location: CAIS K - 8th
-    cost: $725.00
-    programOverview: A space for creative freedom and community! In Maker’s Lab, young artists dive into a new medium each week—from clay and textiles to beading and collage. Along the way, they build friendships, confidence, and artistic fluency. Perfect for curious kids who love to make, mix, and explore!
   - name: 'Makerz: Tools, Techniques & Gadgets'
     gradeRange: Grades 2nd - 5th
     sessionId: '554381'
@@ -216,36 +171,36 @@ classes:
     location: CAIS K - 8th
     cost: $585.00
     programOverview: Wrap up the week with imagination, color, and creativity! In Fridays Makerz Creativity Lab, young makers get to dive into hands-on, open-ended projects that blend art, science, and sensory play. Each week features a new creative theme — from spa science experiments and resin art to mini home décor and sensory crafts. Kids will mix, pour, sculpt, and design while exploring textures, scents, and materials in exciting new ways. Projects may include making fizzy bath bombs, glittery resin coasters, calm jars or clay sculptures— all designed to spark curiosity and confidence. With guidance from our Maker Mentors, students can follow their inspiration and personalize each creation. The Makerz Creativity Lab is the perfect Friday afternoon reset — fun, relaxing, and full of creative discovery!
-  - name: Bilingual Robotics Class G1 - G3 [S26]
-    gradeRange: Grades 1st - 3rd
-    sessionId: '547423'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547423&campCode=cis
-    instructor: Edwin Chen
+  - name: Lower School Literary Magazine
+    gradeRange: Grades 4th - 5th
+    sessionId: '553960'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553960&campCode=cis
+    instructor: Jun Niu [CAIS LS Librarian]
     instructorBackground: ''
-    gradeLevels: Grades 1st - 3rd
+    gradeLevels: Grades 4th - 5th
     dayOfWeek: Tuesday
     time: 3:30 PM - 4:30 PM
     startDate: 1/13/2026
-    endDate: 6/9/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $1,150.00
-    programOverview: 'Our Bilingual Robotics After-School Program introduces students to the fundamentals of mechanical principles, electronic circuits, and modular programming, along with engaging AI-integrated robotics projects. Through hands-on building and coding, students explore how robots “think” and “act.” Classes are taught in both English and Chinese, and all course materials are bilingual as well. This approach helps students strengthen both their technological understanding and language proficiency. By the end of the course, students will: - Understand basic mechanical and electronic concepts - Strengthen logical thinking and programming skills - Develop hands-on creativity and teamwork - Gain an early understanding of Artificial Intelligence and its real-world applications This program inspires curiosity, builds confidence, and sparks a lifelong interest in robotics and innovation.'
-  - name: 'SpyKids: Mission Incredible'
-    gradeRange: Grades 1st - 3rd
-    sessionId: '559781'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559781&campCode=cis
-    instructor: Brett Stillo
-    instructorBackground: ''
-    gradeLevels: Grades 1st - 3rd
-    dayOfWeek: Wednesday
-    time: 3:30 PM - 4:30 PM
-    startDate: 1/14/2026
-    endDate: 5/13/2026
+    endDate: 5/12/2026
     numberOfClasses: 16
     location: CAIS K - 8th
-    cost: $760.00
-    programOverview: 'For the 2026, Winter and Spring semesters, SpyKids will take CAIS students on an exciting, world-wide adventure…without ever leaving the schoolyard! Every week, our spy cadets will take part in MISSION INCREDIBLE, a multi-part, serialized mystery adventure. Cadets will discover a clue to the secret of MISSION INCREDIBLE at each session, while experiencing our all-time classic SpyKids activities: Walkie Talkie Hunts, Disguises and Dossiers, Ribbon-Laser mazes, secret codes, drops, and tailing! Along the way, spy cadets will have introductions in science, engineering and communications, and enhance character-building skills like teamwork and self-reliance. Join the adventure this Spring with SpyKids!'
+    cost: $1,075.00
+    programOverview: 'Tuesday: (16 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12. Join the Lower School Literary Magazine Club! Is your child a storyteller, artist, or designer at heart? The LS Literary Magazine Afterschool Club is a creative space where Grade 4 and 5 students work together to design and publish our very own CAIS Lower School Literary Magazine—a bilingual collection showcasing the best student writing and artwork from across the school, in both Chinese and English. Students learn how to select pieces, design layouts using Canva, and bring ideas to life through color, words, and imagination. It’s a fun blend of collaboration, creativity, and real-world publishing experience! If your child loves to write, draw, or design—or simply enjoys creating beautiful things—this club is the perfect fit.'
+  - name: Bilingual Robotics G4 - G7 [S26]
+    gradeRange: Grades 4th - 7th
+    sessionId: '547395'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547395&campCode=cis
+    instructor: Edwin Chen
+    instructorBackground: ''
+    gradeLevels: Grades 4th - 7th
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $1,035.00
+    programOverview: 'This program is designed for upper elementary and middle school students (Grades 4–7) who are ready to dive deeper into the world of robotics and artificial intelligence. Students will explore mechanical design, electronic circuits, programming logic, and AI applications through hands-on, project-based learning. They will build, code, and present their own smart robots while strengthening both their technical and language skills. In this course, students will: - Learn how sensors, motors, and controllers work together in a robot - Program intelligent behaviors using visual coding and beginner Python - Discover how AI is used in voice recognition, self-driving, and image detection - Collaborate on a final project and present it in both English and Chinese Classes and materials are fully bilingual (English + Chinese), helping students enhance both their global communication and technical understanding. By the end of the course, students will: - Strengthen their foundation in engineering and programming - Develop logical thinking and problem-solving abilities - Understand real-world AI concepts and their applications - Build creativity, confidence, and teamwork through innovation This program prepares students for advanced STEM learning and future robotics competitions.'
   - name: Drone Explorers
     gradeRange: Grades 3rd - 8th
     sessionId: '549710'
@@ -336,6 +291,21 @@ classes:
     location: CAIS K - 8th
     cost: $1,060.00
     programOverview: 'Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9. In this fun, technique-focused baking class, young chefs will move beyond simple decorating and dive into the true art of baking. This skill-building experience combines essential kitchen techniques with festive, seasonal recipes—adding a little extra magic to every class. Throughout the course, students will gain confidence in the kitchen as they learn foundational baking skills and explore the science behind both sweet and savory treats. Each week, we’ll focus on core techniques such as: - Measuring by weight vs. volume - Properly creaming butter and sugar - Understanding mixing methods - Making and rolling various doughs - Whisking and folding - Piping with pastry bags and tips -Ingredient functions and smart substitutions Young bakers will whip up a variety of tasty treats, including muffins, scones, cookies, cupcakes, mini pies, and more—all in a safe, supportive, and mess-friendly environment where creativity can flourish. No prior experience is required—just a love of baking and a big imagination! Whether your child dreams of running a bakery or simply enjoys experimenting in the kitchen, this class will equip them with valuable skills to use and enjoy for years to come.'
+  - name: Elementary Speech & Debate [S26]
+    gradeRange: Grades 4th - 5th
+    sessionId: '560062'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=560062&campCode=cis
+    instructor: Graysen, Athens Debate
+    instructorBackground: ''
+    gradeLevels: Grades 4th - 5th
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 5:30 PM
+    startDate: 1/27/2026
+    endDate: 5/19/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $1,715.00
+    programOverview: ''
   - name: 'Food Detectives: Unlocking the hidden flavors!'
     gradeRange: Grades Kindergarten - 8th
     sessionId: '546909'
@@ -396,15 +366,15 @@ classes:
     location: CAIS K - 8th
     cost: $560.00
     programOverview: 'Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5. Chinese Pop Song Singing Class [Taught in Mandarin] In this fun and engaging Chinese Pop Song Singing Class, students in Grades 3–5 will explore the world of contemporary Chinese pop music while developing confidence, vocal technique, and language skills. This class is fully taught in Mandarin Chinese, and students will learn to sing in Chinese, helping them strengthen both their listening and speaking abilities in an authentic and enjoyable way. Each week, students will learn popular, age-appropriate Chinese pop songs that children love today—ranging from trending hits to classic favorites. I will also encourage students to share the Chinese songs they enjoy outside of class, allowing them to feel ownership and excitement in the learning process. Together, we will practice melody, rhythm, pronunciation, and performance skills in a supportive environment. A unique feature of this class is our focus on music + language integration. Students learn not only how to sing but also the meaning behind lyrics, common vocabulary, and cultural background of the songs. Through lively singing activities, call-and-response practice, and small-group performances, students naturally build confidence and fluency in Mandarin. By the end of the course, students will: - Learn several full Chinese pop songs - Improve pronunciation and understanding of Mandarin lyrics - Gain confidence in singing and performing - Develop an appreciation for modern Chinese music and culture'
-  - name: 'DF Knight Spring Chess Class: K - G3'
-    gradeRange: Grades Kindergarten - 3rd
-    sessionId: '546245'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546245&campCode=cis
+  - name: 'DF Knight Spring Chess Class: G4 - G8'
+    gradeRange: Grades 4th - 8th
+    sessionId: '546248'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546248&campCode=cis
     instructor: David Flores - DF_Knights
     instructorBackground: ''
-    gradeLevels: Grades Kindergarten - 3rd
+    gradeLevels: Grades 4th - 8th
     dayOfWeek: Friday
-    time: 3:30 PM - 4:30 PM
+    time: 4:30 PM - 5:30 PM
     startDate: 1/16/2026
     endDate: 6/5/2026
     numberOfClasses: 14
@@ -441,6 +411,21 @@ classes:
     location: CAIS K - 8th
     cost: $615.00
     programOverview: 'Monday: (17 classes) Jan. 12, 26; Feb. 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. [no class 2/2] Bucketeers use an innovative color-coded system applied to five-gallon buckets to allow children to learn & experience the art of percussion. Special multi-rod drumsticks help keep the volume down and seat cushions provide a comfortable experience. Benefits include forging a foundation in rhythm, playing with a steady pulse, learning a variety of patterns, participating in collaborative movement activities, and developing hand-eye coordination. Students play along with a diverse set of music: children’s, pop, rock, jazz, and multi-genre songs in several languages incorporating beats and patterns from around the world. Each class doubles as a rehearsal building towards an end-of-session performance. Drummers will be introduced to several music skills and concepts throughout the session including: Stick Technique Dynamics Song Structure Improvisation Call & Response Tempo Melody Timbre'
+  - name: 'Hip Hop Dance Class: G4 - G5 [S26]'
+    gradeRange: Grades 4th - 5th
+    sessionId: '554044'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554044&campCode=cis
+    instructor: Orina Lee
+    instructorBackground: ''
+    gradeLevels: Grades 4th - 5th
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $900.00
+    programOverview: 'Monday: (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. Get ready to move and groove! This fun, high-energy class teaches hip-hop basics, fun combos, and freestyle moves. Dancers build confidence, coordination, and creativity!'
   - name: Beginning Violin Class
     gradeRange: Grades 3rd - 8th
     sessionId: '559626'
@@ -456,36 +441,6 @@ classes:
     location: CAIS K - 8th
     cost: $715.00
     programOverview: 'Monday: (15 classes) Jan. 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18. Join our Beginning Violin Class for children ages 8 and up! This engaging course introduces essential violin techniques, including bowing, finger placement, and posture, to help young musicians build a solid foundation. Students will also learn music-reading skills, exploring notes, rhythms, and basic music theory through fun and interactive methods. Class Structure: - Taught by qualified instructors who are professional musicians - Small class size: 5 students per teacher - For children ages 8+ with no experience required Pre-requisite: - Must be over 8 years of age - Will require their own instruments. We recommend the following instrument rental locations: Bronstein Music - South San Francisco https://www.bronsteinmusic.com/ Exploring Music - Inner Richmond, SF https://exploringmusicusa.com/instrument-rentals/'
-  - name: 'Hip Hop Dance Class: G1 - G3 [S26]'
-    gradeRange: Grades 1st - 3rd
-    sessionId: '554046'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554046&campCode=cis
-    instructor: Orina Lee
-    instructorBackground: ''
-    gradeLevels: Grades 1st - 3rd
-    dayOfWeek: Tuesday
-    time: 3:30 PM - 4:30 PM
-    startDate: 1/13/2026
-    endDate: 6/9/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $1,000.00
-    programOverview: 'Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9. Get ready to move and groove! This fun, high-energy class teaches hip-hop basics, fun combos, and freestyle moves. Dancers build confidence, coordination, and creativity!'
-  - name: 'Ballet Class: G1 - G3 [CANCELLED]'
-    gradeRange: Grades 1st - 3rd
-    sessionId: '554814'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554814&campCode=cis
-    instructor: Nehemiah A.
-    instructorBackground: ''
-    gradeLevels: Grades 1st - 3rd
-    dayOfWeek: Wednesday
-    time: 4:40 PM - 5:40 PM
-    startDate: 1/14/2026
-    endDate: 5/27/2026
-    numberOfClasses: 18
-    location: CAIS K - 8th
-    cost: $800.00
-    programOverview: 'Wednesday: (18 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27. This class builds a strong foundation in ballet through age-appropriate technique and creative movement. Students learn basic positions, simple combinations, and proper posture while improving balance, coordination, and musicality. Classes introduce more structured exercises, but still keep learning fun and encouraging. Dancers gain confidence, discipline, and an appreciation for classical ballet in a supportive environment.'
   - name: Lower School Chinese Music Ensemble [S26]
     gradeRange: Grades 3rd - 5th
     sessionId: '554087'
@@ -546,21 +501,6 @@ classes:
     location: CAIS K - 8th
     cost: $1,580.00
     programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9.'
-  - name: AcroSports
-    gradeRange: Grades Kindergarten - 3rd
-    sessionId: '546341'
-    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546341&campCode=cis
-    instructor: Coach Paivi & Coach Victor
-    instructorBackground: ''
-    gradeLevels: Grades Kindergarten - 3rd
-    dayOfWeek: Wednesday
-    time: 3:30 PM - 4:30 PM
-    startDate: 1/14/2026
-    endDate: 6/10/2026
-    numberOfClasses: 20
-    location: CAIS K - 8th
-    cost: $980.00
-    programOverview: 'Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10. Move. Play. Grow. Anywhere. AcroSports Offsite Classes bring the energy, creativity, and spirit of AcroSports straight to your school or community! Our dynamic programs introduce kids to the joy of movement through gymnastics, parkour, tumbling, breakdancing, and circus arts—building strength, coordination, balance, and confidence along the way. Led by experienced AcroSports coaches, our classes combine physical skill-building with creativity, teamwork, and self-expression. Each session is packed with fun challenges and progressive skill development, helping kids explore movement safely while having a blast. What We Offer Our offsite classes introduce kids to the excitement of movement through a vibrant mix of gymnastics, tumbling, parkour, breakdancing, and circus arts. Each discipline builds coordination, confidence, and creativity in its own way—whether it’s learning rolls and balance skills in gymnastics, moving fluidly over obstacles in parkour, expressing rhythm and individuality through breakdancing, or discovering teamwork and performance in circus arts. Together, these experiences help children develop strength, agility, and imagination while having fun in a safe, supportive environment led by our passionate AcroSports coaches. Why Parents Love It - Builds physical literacy, confidence, and resilience - Encourages creative expression and teamwork - Flexible locations — we bring AcroSports to you! - A safe, engaging way for kids to stay active and have fun'
   - name: 'Super Moverz Sports Adventures: G2 - G5'
     gradeRange: Grades 2nd - 5th
     sessionId: '553292'

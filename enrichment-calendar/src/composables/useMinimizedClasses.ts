@@ -1,14 +1,21 @@
 import { ref, computed, watch } from 'vue';
 import type { Ref, ComputedRef } from 'vue';
-import type { EnrichedClass, MinimizedClassesState } from '../types';
+import type { EnrichedClass, MinimizedClassesState, Grade } from '../types';
 
-const STORAGE_KEY = 'enrichment-calendar-minimized-classes';
+const STORAGE_PREFIX = 'enrichment-calendar-minimized-classes';
 
-export function useMinimizedClasses(allClasses: Ref<EnrichedClass[]>): MinimizedClassesState {
+function getStorageKey(grade: Grade | null): string {
+  return grade ? `${STORAGE_PREFIX}-${grade}` : STORAGE_PREFIX;
+}
+
+export function useMinimizedClasses(
+  allClasses: Ref<EnrichedClass[]>,
+  gradeRef: Ref<Grade | null>
+): MinimizedClassesState {
   // Initialize Set from localStorage
-  const loadMinimizedFromStorage = (): Set<string> => {
+  const loadMinimizedFromStorage = (grade: Grade | null): Set<string> => {
     try {
-      const stored = localStorage.getItem(STORAGE_KEY);
+      const stored = localStorage.getItem(getStorageKey(grade));
       if (stored) {
         const parsed = JSON.parse(stored);
         return new Set(Array.isArray(parsed) ? parsed : []);
@@ -20,20 +27,25 @@ export function useMinimizedClasses(allClasses: Ref<EnrichedClass[]>): Minimized
   };
 
   // Save Set to localStorage
-  const saveMinimizedToStorage = (minimizedSet: Set<string>) => {
+  const saveMinimizedToStorage = (minimizedSet: Set<string>, grade: Grade | null) => {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(minimizedSet)));
+      localStorage.setItem(getStorageKey(grade), JSON.stringify(Array.from(minimizedSet)));
     } catch (error) {
       console.error('Failed to save minimized classes to localStorage:', error);
     }
   };
 
   // Reactive minimized Set
-  const minimized = ref<Set<string>>(loadMinimizedFromStorage());
+  const minimized = ref<Set<string>>(loadMinimizedFromStorage(gradeRef.value));
+
+  // Reload when grade changes
+  watch(gradeRef, (newGrade) => {
+    minimized.value = loadMinimizedFromStorage(newGrade);
+  });
 
   // Watch for changes and persist
   watch(minimized, (newSet) => {
-    saveMinimizedToStorage(newSet);
+    saveMinimizedToStorage(newSet, gradeRef.value);
   }, { deep: true });
 
   // Check if a class is minimized

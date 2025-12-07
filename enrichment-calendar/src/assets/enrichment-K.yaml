@@ -1,0 +1,473 @@
+metadata:
+  scrapedAt: '2025-12-06T23:43:34.166Z'
+  campId: 502
+  campCode: cis
+  locationId: 5710
+  gradeFilter: K
+  totalClasses: 31
+classes:
+  - name: 'Sparkle & Shine: Jewelry Making for Beginners [S26]'
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '547187'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547187&campCode=cis
+    instructor: Dragonfly Designs
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $765.00
+    programOverview: 'Monday: (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. Spark your child’s confidence through creativity! In this joyful beginner’s jewelry class, young makers will explore vibrant colors, textures, and patterns as they learn foundational beading techniques. Each project supports early childhood development—from fine motor skills to pattern recognition—all while encouraging imaginative expression. Children leave not just with beautiful, wearable art, but with the self-assurance that comes from making something all their own.'
+  - name: 'Superhero Science School: Unlock The Elements'
+    gradeRange: Grades Kindergarten - 2nd
+    sessionId: '554397'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554397&campCode=cis
+    instructor: Maker Studio
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 2nd
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 5/18/2026
+    numberOfClasses: 16
+    location: CAIS K - 8th
+    cost: $740.00
+    programOverview: We are calling forward the elementals powers of Air, Fire, Water, and Earth! Using a secret combination of science and art, we will teach young superheros how to use these elemental powers! This is the perfect opportunity for you to unlock the natural elements of our Earth! In this program, we'll embark on exciting projects designed to push the boundaries of science. From creating lava to developing fantastic flying machines, every challenge will put your skills to the test. Get ready to experiment, innovate, and put your creations into action! **Our projects may include:** Flying machines, volcano eruption experiment, creations that stand on water
+  - name: 'Art Explorers: Around the World in 8 Crafts'
+    gradeRange: Grades Kindergarten - 3rd
+    sessionId: '552778'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552778&campCode=cis
+    instructor: Dragonfly Designs
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 3rd
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $850.00
+    programOverview: Let your child’s imagination soar as we journey across continents through the lens of art! Each week, students will explore a new culture by creating folk art inspired by global traditions—like Japanese fish kites, Mexican tin hearts, and Australian dot paintings. Along the way, students build cultural awareness, global curiosity, and creative confidence while working with diverse materials. This class encourages empathy, respect, and wonder through hands-on learning.
+  - name: Yarn Club – Keep Creating, Keep Crafting!
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '547168'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547168&campCode=cis
+    instructor: Fiona Kwee
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Tuesday
+    time: 4:30 PM - 5:30 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $1,170.00
+    programOverview: Yarn Club – Keep Creating, Keep Crafting! Whether you're just curious or already hooked, Yarn Club is the perfect place to dive into cozy crafting with a community of fellow makers! From beginner-friendly knitting and crocheting to playful weaving and yarn-based projects, each session offers something new to try or build upon—at your own pace. Returning students will continue developing their skills while taking on more creative challenges—think mini plushies, wall hangings, or custom accessories. New to yarn? No problem! We'll start with the basics and guide you every step of the way. It’s a welcoming space to unwind, explore, and **actually finish projects you’re proud of**. Great for kids who love to craft, want to keep progressing, or just want a relaxing, creative outlet after school.
+  - name: 'Art Lab: Science Meets Creativity'
+    gradeRange: Grades Kindergarten - 3rd
+    sessionId: '552775'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552775&campCode=cis
+    instructor: Dragonfly Designs
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 3rd
+    dayOfWeek: Wednesday
+    time: 4:45 PM - 5:45 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $850.00
+    programOverview: Where creativity and curiosity collide! Each week, students engage in guided experiments that blend art and science—like salt & watercolor reactions, magnetic painting, and sun prints. Alongside beautiful take-home projects, kids explore cause and effect, color theory, and basic chemistry in a playful, age-appropriate way. It’s STEAM learning in its most colorful form!
+  - name: Costume Creations
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '547369'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547369&campCode=cis
+    instructor: Dragonfly Designs
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $850.00
+    programOverview: Let their imaginations take center stage! In this playful class, children bring stories to life through colorful, handmade costumes. From capes to crowns, each project builds hand-eye coordination and creativity while strengthening their ability to focus and express big feelings. Designed with early childhood development in mind, this class supports social-emotional growth through imaginative play and collaboration.
+  - name: Fantastical Clay Class with Issy
+    gradeRange: Grades Kindergarten - 5th
+    sessionId: '552785'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=552785&campCode=cis
+    instructor: Issy Taylor
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 5th
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 5/7/2026
+    numberOfClasses: 13
+    location: CAIS K - 8th
+    cost: $1,250.00
+    programOverview: An art class like never before. Students will get to experience the full benefits of the new campus' ceramic studio beyond their regular art curriculum. Students will hand build, experiment with new glazes and learn how the kilns work. They will learn new skills they haven't gotten during the school day. They will bring home their pieces as they finish them! This new class will be a lot of fun!
+  - name: 'Spring Sewing: Beginner & Intermediate'
+    gradeRange: Grades Kindergarten - 5th
+    sessionId: '546332'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546332&campCode=cis
+    instructor: Fiona Kwee
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 5th
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 16
+    location: CAIS K - 8th
+    cost: $1,098.00
+    programOverview: '[No Class March 19] Learn to sew this spring! In our fun and creative Beginners Sewing Class, young makers will learn the basics of sewing while creating adorable spring-themed projects they can take home with pride. Each week focuses on building fundamental skills such as threading a needle and cutting fabric safely, different types of stitching, pinning, and decorating simple patterns. Intermediate sewers will continue to hone their stitching skills and work on more intricate projects. Students will complete a variety of projects such as mini pillows, tote bags, and small plushies, while discovering the joy of working with fabric and color.'
+  - name: 'Sprout & Create: Nature Art Adventures'
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '547384'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=547384&campCode=cis
+    instructor: Dragonfly Design
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $725.00
+    programOverview: Let nature spark their imagination! In this outdoor-inspired class, children explore plant life and the seasons through hands-on art. From leaf rubbings to flower collages, each project connects kids to the natural world while supporting sensory development, environmental awareness, and creative expression.
+  - name: 'TinkerTales Jr: The Inventor’s Kingdom Quest'
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '554360'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554360&campCode=cis
+    instructor: Maker Studio
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 5/28/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $780.00
+    programOverview: 'Enter the Tinkertales Jr: Inventor’s Kingdom, where knights, dragons, and castle builders bring their ideas to life! In this hands-on maker adventure, kids will design and construct medieval-inspired creations using recycled materials, paper engineering, and light construction techniques. Each week begins with a playful quest — from building a dragon’s lair to designing gadgets for a royal mission. Students will craft castles, armor, maps, and fantastical props while learning problem-solving, teamwork, and the art of turning cardboard into magic. We’ll use simple tools and connectors (tape, brads, yarn) to encourage imagination, experimentation, and “maker bravery” — perfect for creative kids who love a good story and a great build.'
+  - name: Octonaut Adventures
+    gradeRange: Grades Kindergarten - 2nd
+    sessionId: '546927'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546927&campCode=cis
+    instructor: Moonshot Labs
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 2nd
+    dayOfWeek: Monday
+    time: 4:30 PM - 5:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $875.00
+    programOverview: Psst! Grab your goggles, it’s time to greet some shiny seashells and crustacean creatures. Hop aboard for Octonaut Adventures to discover the underwater universe. Dive into the depths of the ocean to excavate pearls from oozy oysters, explode ginormous deepwater volcanoes, create water-proof magic sand and more. Get ready to discover colorful ecosystems, protect biodiversity, and plunge into the splash-tacular world of aquatic adventures!
+  - name: Spring Cooking with Baker's Stand [K - G2]
+    gradeRange: Grades Kindergarten - 2nd
+    sessionId: '546277'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546277&campCode=cis
+    instructor: Fiona Kwee
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 2nd
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 16
+    location: CAIS K - 8th
+    cost: $1,098.00
+    programOverview: 'Monday: (16 classes) Jan. 12, 26; Feb. 2, 23; Mar. 2, 9, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8., [No Class on 2/9, 3/16] Spring Cooking Class with Baker’s Stand Give your young chef a delicious start to spring! Our after-school cooking class is designed especially for curious kids who love to create, taste, and explore. Each week, students dive into a new theme inspired by the season, from fresh herbs and colorful vegetables to fruity desserts and picnic favorites. In our cozy, hands-on studio kitchen, children will learn real cooking techniques such as chopping, mixing, kneading, and baking all in a supportive environment. Every class highlights creativity and confidence, encouraging students to experiment with flavors and presentation while having fun with their peers. By the end of the program, your child will have built strong kitchen skills, learned healthy habits, and gained the pride of creating their own spring-inspired dishes from scratch.'
+  - name: Spring Cooking with Baker's Stand [K - G8]
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '546284'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546284&campCode=cis
+    instructor: Fiona Kwee
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Monday
+    time: 4:30 PM - 5:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 16
+    location: CAIS K - 8th
+    cost: $1,098.00
+    programOverview: 'Monday: (16 classes) Jan. 12, 26; Feb. 2, 23; Mar. 2, 9, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8., [No Class on 2/9, 3/16] Spring Cooking Class with Baker’s Stand Give your young chef a delicious start to spring! Our after-school cooking class is designed especially for curious kids who love to create, taste, and explore. Each week, students dive into a new theme inspired by the season, from fresh herbs and colorful vegetables to fruity desserts and picnic favorites. In our cozy, hands-on studio kitchen, children will learn real cooking techniques such as chopping, mixing, kneading, and baking all in a supportive environment. Every class highlights creativity and confidence, encouraging students to experiment with flavors and presentation while having fun with their peers. By the end of the program, your child will have built strong kitchen skills, learned healthy habits, and gained the pride of creating their own spring-inspired dishes from scratch.'
+  - name: Baking Basics & Themed Treats
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '546926'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546926&campCode=cis
+    instructor: Chef Mo
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Tuesday
+    time: 5:00 PM - 6:00 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $1,060.00
+    programOverview: 'Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9. In this fun, technique-focused baking class, young chefs will move beyond simple decorating and dive into the true art of baking. This skill-building experience combines essential kitchen techniques with festive, seasonal recipes—adding a little extra magic to every class. Throughout the course, students will gain confidence in the kitchen as they learn foundational baking skills and explore the science behind both sweet and savory treats. Each week, we’ll focus on core techniques such as: - Measuring by weight vs. volume - Properly creaming butter and sugar - Understanding mixing methods - Making and rolling various doughs - Whisking and folding - Piping with pastry bags and tips -Ingredient functions and smart substitutions Young bakers will whip up a variety of tasty treats, including muffins, scones, cookies, cupcakes, mini pies, and more—all in a safe, supportive, and mess-friendly environment where creativity can flourish. No prior experience is required—just a love of baking and a big imagination! Whether your child dreams of running a bakery or simply enjoys experimenting in the kitchen, this class will equip them with valuable skills to use and enjoy for years to come.'
+  - name: 'Food Detectives: Unlocking the hidden flavors!'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '546909'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546909&campCode=cis
+    instructor: Chef Mo
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $1,060.00
+    programOverview: 'Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10. Flavor Detectives: Unlocking the hidden flavors! In this class, your young chef will tap into their senses and connect with food on a whole new level. They will be put to the challenge by their fellow chefs to spot secret ingredients in every dish we create. Each week, a group of chefs will choose a secret ingredient to add to that day''s recipe. The rest of the class will be the flavor detectives and will have to identify the secret ingredient relying only on their senses of smell and taste. It’s a fun, interactive class that will help your young chef sharpen their taste buds and their investigative skills. A deliciously fun adventure to decode the mysteries of food and become expert ingredient detectives awaits! Warning: Will cause the development of super human taste buds. Eye mask included!'
+  - name: Gardening 101
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '546352'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546352&campCode=cis
+    instructor: Joey Silberman [CAIS Staff]
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 5/27/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $600.00
+    programOverview: 'Wednesday: (18 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27. Gardening 101 introduces students to the joys of growing and caring for plants while fostering a deeper appreciation for nature, sustainability, and healthy eating. Each week, students will explore hands-on gardening projects such as planting seeds, maintaining raised garden beds, learning about composting, and understanding plant life cycles. The class emphasizes experiential learning: students will get their hands dirty, track plant growth in journals, and engage in small group collaborations to design and maintain sections of the school garden. We’ll also introduce environmental science concepts, like pollination, soil health, and the water cycle, in age-appropriate and engaging ways. By the end of the term, students will take home their own potted plant and a deeper understanding of how their actions can positively impact the environment. What makes this class unique: - Hands-on outdoor learning experience - Integration of science, art, and environmental responsibility - Encourages mindfulness, patience, and teamwork - Students see real results from their efforts week to week'
+  - name: 'DF Knight Spring Chess Class: K - G3'
+    gradeRange: Grades Kindergarten - 3rd
+    sessionId: '546245'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546245&campCode=cis
+    instructor: David Flores - DF_Knights
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 3rd
+    dayOfWeek: Friday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $1,160.00
+    programOverview: 'Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5. Through our meticulously crafted lessons, students learn to anticipate multiple outcomes, and make informed decisions under pressure. These skills are invaluable, not just on the chessboard, but in everyday life. By embracing the challenges and opportunities presented by chess, our students develop resilience, patience, and the confidence to face any obstacle. Every chess class is new and comes with high cognitive benefits!'
+  - name: 'Bucketeers: Percussion for Kids [S26]'
+    gradeRange: Grades Kindergarten - 5th
+    sessionId: '546199'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546199&campCode=cis
+    instructor: Eric Wu, Bucketeers
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 5th
+    dayOfWeek: Monday
+    time: 4:00 PM - 4:45 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $615.00
+    programOverview: 'Monday: (17 classes) Jan. 12, 26; Feb. 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. [no class 2/2] Bucketeers use an innovative color-coded system applied to five-gallon buckets to allow children to learn & experience the art of percussion. Special multi-rod drumsticks help keep the volume down and seat cushions provide a comfortable experience. Benefits include forging a foundation in rhythm, playing with a steady pulse, learning a variety of patterns, participating in collaborative movement activities, and developing hand-eye coordination. Students play along with a diverse set of music: children’s, pop, rock, jazz, and multi-genre songs in several languages incorporating beats and patterns from around the world. Each class doubles as a rehearsal building towards an end-of-session performance. Drummers will be introduced to several music skills and concepts throughout the session including: Stick Technique Dynamics Song Structure Improvisation Call & Response Tempo Melody Timbre'
+  - name: 'Ballet Class: K [CANCELLED]'
+    gradeRange: Grade Kindergarten
+    sessionId: '554767'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554767&campCode=cis
+    instructor: Nehemiah A.
+    instructorBackground: ''
+    gradeLevels: Grade Kindergarten
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 5/27/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $800.00
+    programOverview: 'Wednesday: (18 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27. Beginner ballet for Kindergarten introduces basic dance movements in a fun and playful way. Kids will learn simple steps, practice balance, and fundamental movements. Classes focus on building coordination, confidence, and a love of dance through imaginative activities, gentle stretching, and easy ballet positions.'
+  - name: Rabbit Hole Pretend Theater [S26]
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '546351'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546351&campCode=cis
+    instructor: Mary Eriette Atanante
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Friday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $580.00
+    programOverview: 'Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5. Join our magical class, designed for kids aged 4 to 6, where we inspire them to "trust their spark" as they explore the enchanting worlds of pretend play and theater. Through imaginative storytelling, creative craft time, and collaborative games, we nurture their creativity, empathy, and social skills in a safe and fun environment. Led by passionate instructors, our class encourages self-discovery, self-expression, and a lifelong love for storytelling.'
+  - name: 'Super Moverz Sports Adventures: K - G1'
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '553293'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553293&campCode=cis
+    instructor: Wyatt Cameron
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $720.00
+    programOverview: 'Monday: (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. Super Moverz is a dynamic, new-age sports program that gets kids moving, laughing and growing as they unleash imagination and experience amazing sports adventures! With story-based multi-level missions, up-beat music, and our exclusive zaberplay equipment, kids get to power up and reach for the next level of ultimate FUN! with more than 20 years of this special program, Super Moverz has developed a refined curriculum, that focuses on teaching all the fundamental movement and motor skills along with important character building concepts related to teamwork, communication, will power, leadership and much more. Kids are motivated to earn higher levels of the core powers (Safety, Unity, Energy, and Reaction) on their personalized players cards that are provided at the end of each season in trading packs with all their Super Moverz teammates.'
+  - name: 'Tenacious Tennis Academy: Monday'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '554461'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554461&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Monday
+    time: 3:30 PM - 5:15 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K - 8th
+    cost: $1,425.00
+    programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Monday: (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8.'
+  - name: Active Adventures with Kidokinetics
+    gradeRange: Grades Kindergarten - 1st
+    sessionId: '546908'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546908&campCode=cis
+    instructor: Diane Shapiro and/or Ana Zieger
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 1st
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 4:15 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $860.00
+    programOverview: 'Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9. Want to play games with scooters, foam noodles, hula hoops, bean bags, parachutes, playground balls, soft frisbees, and more? Then Active Adventures with Kidokinetics is for you! This class brings all the fun, with lots of unique activities and exciting, new play equipment. Some of the activities we will do include: - Using our creativity to build obstacle courses together and then finding different ways to move through them - Balloon "volleyball" - Bean bag and tennis ball toss games - Foam ball bowling - Mini-golf putting - Foam noodle hockey - Hula hoop challenge - Noodle fun games - Ninja play - "Popcorn" parachute - Soft frisbee target throw - Animal imagination action - Racket skills - Scooter races And more!'
+  - name: 'Tenacious Tennis Academy: Tuesday'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '554489'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554489&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 5:15 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $1,580.00
+    programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9.'
+  - name: AcroSports
+    gradeRange: Grades Kindergarten - 3rd
+    sessionId: '546341'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=546341&campCode=cis
+    instructor: Coach Paivi & Coach Victor
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 3rd
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $980.00
+    programOverview: 'Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10. Move. Play. Grow. Anywhere. AcroSports Offsite Classes bring the energy, creativity, and spirit of AcroSports straight to your school or community! Our dynamic programs introduce kids to the joy of movement through gymnastics, parkour, tumbling, breakdancing, and circus arts—building strength, coordination, balance, and confidence along the way. Led by experienced AcroSports coaches, our classes combine physical skill-building with creativity, teamwork, and self-expression. Each session is packed with fun challenges and progressive skill development, helping kids explore movement safely while having a blast. What We Offer Our offsite classes introduce kids to the excitement of movement through a vibrant mix of gymnastics, tumbling, parkour, breakdancing, and circus arts. Each discipline builds coordination, confidence, and creativity in its own way—whether it’s learning rolls and balance skills in gymnastics, moving fluidly over obstacles in parkour, expressing rhythm and individuality through breakdancing, or discovering teamwork and performance in circus arts. Together, these experiences help children develop strength, agility, and imagination while having fun in a safe, supportive environment led by our passionate AcroSports coaches. Why Parents Love It - Builds physical literacy, confidence, and resilience - Encourages creative expression and teamwork - Flexible locations — we bring AcroSports to you! - A safe, engaging way for kids to stay active and have fun'
+  - name: 'Tenacious Tennis Academy: Wednesday'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '554508'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554508&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 5:15 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K - 8th
+    cost: $1,580.00
+    programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10.'
+  - name: 'Kung Fu Just In Case: K [S26]'
+    gradeRange: Grade Kindergarten
+    sessionId: '553946'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553946&campCode=cis
+    instructor: Victor Chung / Frederick Wong
+    instructorBackground: ''
+    gradeLevels: Grade Kindergarten
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $715.00
+    programOverview: 'Thursday: (17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4. Kung Fu classes ground kids with their center and centerline. We challenge kids to throw punches, kicks, and play forms. We also meditate by adding one minute per month (e.g., we are currently in November, so up to7 minutes). The goal is to have fun while learning how to maintain good posture and balance on a rocking balance tool.'
+  - name: 'Tenacious Tennis Academy: Thursday'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '554510'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554510&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Thursday
+    time: 3:30 PM - 5:15 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K - 8th
+    cost: $1,345.00
+    programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Thursday: (17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4.'
+  - name: 'Badminton: G3 - G5'
+    gradeRange: Grades Kindergarten - 5th
+    sessionId: '559783'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559783&campCode=cis
+    instructor: Bonic Zhang Laoshi
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 5th
+    dayOfWeek: Friday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $630.00
+    programOverview: 'In our after-school badminton program, students will develop strong fundamental skills and confidence on the court. They will learn proper forehand and backhand grips, practice clears, drops, smashes, net shots, and build consistent stroke technique. Students will also improve their footwork, including movement to all corners of the court, split-step timing, and recovery. As they progress, they will begin learning basic game tactics, single/doubles formations, and how to plan rallies. In addition, the class will cover essential rules, scoring, and court etiquette. Throughout the program, students are encouraged to show good sportsmanship, communicate positively, and practice with purpose. Location: CAIS K - 8th'
+  - name: 'Kung Fu Just In Case: K - G5 [S26]'
+    gradeRange: Grades Kindergarten - 5th
+    sessionId: '553952'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553952&campCode=cis
+    instructor: Victor Chung / Frederick Wong
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 5th
+    dayOfWeek: Friday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $588.00
+    programOverview: 'Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5. Kung Fu classes ground kids with their center and centerline. We challenge kids to throw punches, kicks, and play forms. We also meditate by adding one minute per month (e.g., we are currently in November, so up to7 minutes). The goal is to have fun while learning how to maintain good posture and balance on a rocking balance tool.'
+  - name: 'Tenacious Tennis Academy: Friday'
+    gradeRange: Grades Kindergarten - 8th
+    sessionId: '554757'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554757&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades Kindergarten - 8th
+    dayOfWeek: Friday
+    time: 3:30 PM - 5:15 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K - 8th
+    cost: $1,105.00
+    programOverview: 'This is an OFF Campus class at Tenacious Tennis Academy @Lake Merced Boulevard at State Drive Tenacious Tennis Academy afterschool class offers a fun, high-energy environment where young athletes build strong tennis fundamentals, improve coordination, and develop confidence on and off the court. Students will be grouped by their skill levels. Through guided drills, students learn proper technique, teamwork, and sportsmanship—all while staying active and having a great time after school. Pick-ups and drop-offs provided by Tenacious Academy Depart from CAIS: 3:30 PM Return to CAIS: 5:30 PM [or directly pick up from Tenacious] Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5.'

@@ -1,5 +1,5 @@
 metadata:
-  scrapedAt: '2025-12-05T06:54:57.378Z'
+  scrapedAt: '2025-12-06T23:44:43.602Z'
   campId: 502
   campCode: cis
   locationId: 5710
@@ -441,21 +441,21 @@ classes:
     location: CAIS K - 8th
     cost: $615.00
     programOverview: 'Monday: (17 classes) Jan. 12, 26; Feb. 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1, 8. [no class 2/2] Bucketeers use an innovative color-coded system applied to five-gallon buckets to allow children to learn & experience the art of percussion. Special multi-rod drumsticks help keep the volume down and seat cushions provide a comfortable experience. Benefits include forging a foundation in rhythm, playing with a steady pulse, learning a variety of patterns, participating in collaborative movement activities, and developing hand-eye coordination. Students play along with a diverse set of music: children’s, pop, rock, jazz, and multi-genre songs in several languages incorporating beats and patterns from around the world. Each class doubles as a rehearsal building towards an end-of-session performance. Drummers will be introduced to several music skills and concepts throughout the session including: Stick Technique Dynamics Song Structure Improvisation Call & Response Tempo Melody Timbre'
-  - name: Introductory String Instrument
-    gradeRange: Grades 1st - 8th
+  - name: Beginning Violin Class
+    gradeRange: Grades 3rd - 8th
     sessionId: '559626'
     sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=559626&campCode=cis
-    instructor: GGP Musicians
+    instructor: Golden Gate Philharmonic (GGP) Musicians
     instructorBackground: ''
-    gradeLevels: Grades 1st - 8th
+    gradeLevels: Grades 3rd - 8th
     dayOfWeek: Monday
     time: 3:30 PM - 4:30 PM
     startDate: 1/26/2026
     endDate: 5/18/2026
-    numberOfClasses: 16
+    numberOfClasses: 15
     location: CAIS K - 8th
     cost: $715.00
-    programOverview: 'Monday: (16 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18. Introductory violin/cello class taught by professional musicians from Golden Gate Philharmonic (GGP). For students ages 6+ no prior experience required. Small class size of 5 students per teacher. GGP will provide instrument rental information before class begins.'
+    programOverview: 'Monday: (15 classes) Jan. 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18. Join our Beginning Violin Class for children ages 8 and up! This engaging course introduces essential violin techniques, including bowing, finger placement, and posture, to help young musicians build a solid foundation. Students will also learn music-reading skills, exploring notes, rhythms, and basic music theory through fun and interactive methods. Class Structure: - Taught by qualified instructors who are professional musicians - Small class size: 5 students per teacher - For children ages 8+ with no experience required Pre-requisite: - Must be over 8 years of age - Will require their own instruments. We recommend the following instrument rental locations: Bronstein Music - South San Francisco https://www.bronsteinmusic.com/ Exploring Music - Inner Richmond, SF https://exploringmusicusa.com/instrument-rentals/'
   - name: 'Hip Hop Dance Class: G1 - G3 [S26]'
     gradeRange: Grades 1st - 3rd
     sessionId: '554046'

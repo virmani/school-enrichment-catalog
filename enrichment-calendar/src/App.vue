@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, toRef } from 'vue';
+import { useGradeSelection } from './composables/useGradeSelection';
 import { useClasses } from './composables/useClasses';
 import { useMinimizedClasses } from './composables/useMinimizedClasses';
 import { useClassStatus } from './composables/useClassStatus';
 import { useScreenshot } from './composables/useScreenshot';
 import { useViewState } from './composables/useViewState';
 import { useAnalytics } from './composables/useAnalytics';
+import GradeSelector from './components/GradeSelector.vue';
 import WeekView from './components/WeekView.vue';
 import DayView from './components/DayView.vue';
 import ViewToggle from './components/ViewToggle.vue';
@@ -13,15 +15,29 @@ import ClassDetail from './components/ClassDetail.vue';
 import MinimizedClassesPanel from './components/MinimizedClassesPanel.vue';
 import ScreenshotModal from './components/ScreenshotModal.vue';
 import type { EnrichedClass } from './types';
+import { GRADE_LABELS } from './types';
 
-const { classes, loading, error, timeSlots, classesByDayAndTime, loadClasses } = useClasses();
-const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes);
-const { getStatus, toggleStatus } = useClassStatus();
+// Grade selection (top-level state)
+const { selectedGrades, activeGrade, addGrade, removeGrade, setActiveGrade, hasSelectedGrades } = useGradeSelection();
+
+// Grade-scoped composables - pass activeGrade as reactive ref
+const activeGradeRef = toRef(() => activeGrade.value);
+const { classes, loading, error, timeSlots, classesByDayAndTime } = useClasses(activeGradeRef);
+const { minimized, minimize, restore, restoreAll, minimizedClasses } = useMinimizedClasses(classes, activeGradeRef);
+const { getStatus, toggleStatus } = useClassStatus(activeGradeRef);
+
+// Non-grade-scoped composables
 const { captureScreenshot } = useScreenshot();
 const { viewMode, selectedDay, nextDay, previousDay } = useViewState();
 const { trackClassMinimize, trackClassRestore, trackRestoreAll, trackScreenshotGenerated, trackStatusChange } = useAnalytics();
 
 const minimizedSet = computed(() => minimized.value);
+
+// Dynamic title
+const pageTitle = computed(() => {
+  if (!activeGrade.value) return 'Enrichment Classes';
+  return `Enrichment Classes - ${GRADE_LABELS[activeGrade.value]}`;
+});
 
 const selectedClass = ref<EnrichedClass | null>(null);
 const isModalOpen = ref(false);
@@ -86,10 +102,6 @@ function handleGenerateScreenshot(kidName: string) {
   trackScreenshotGenerated(kidName);
   isScreenshotModalOpen.value = false;
 }
-
-onMounted(() => {
-  loadClasses();
-});
 </script>
 
 <template>
@@ -97,10 +109,10 @@ onMounted(() => {
     <header class="bg-white shadow-sm">
       <div class="max-w-7xl mx-auto px-4 py-3 sm:py-4 lg:py-6 flex justify-between items-center gap-3">
         <h1 class="text-lg sm:text-2xl lg:text-3xl font-bold text-gray-800">
-          Enrichment Classes - 3rd Grade
+          {{ pageTitle }}
         </h1>
         <button
-          v-if="!loading && !error && classes.length > 0"
+          v-if="hasSelectedGrades && !loading && !error && classes.length > 0"
           @click="handleScreenshotClick"
           class="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base font-semibold rounded-lg transition-colors whitespace-nowrap"
         >
@@ -111,22 +123,46 @@ onMounted(() => {
     </header>
 
     <main class="max-w-7xl mx-auto px-4 py-8">
-      <div v-if="loading" class="text-center py-12">
-        <p class="text-gray-600">Loading classes...</p>
-      </div>
+      <!-- Grade selector (always visible) -->
+      <GradeSelector
+        :selected-grades="selectedGrades"
+        :active-grade="activeGrade"
+        @add-grade="addGrade"
+        @remove-grade="removeGrade"
+        @select-grade="setActiveGrade"
+      />
 
-      <div v-else-if="error" class="text-center py-12">
-        <p class="text-red-600">{{ error }}</p>
-      </div>
+      <!-- Calendar content (only when grade selected) -->
+      <template v-if="hasSelectedGrades">
+        <div v-if="loading" class="text-center py-12">
+          <p class="text-gray-600">Loading classes...</p>
+        </div>
 
-      <div v-else-if="classes.length === 0" class="text-center py-12">
-        <p class="text-gray-600">No classes found.</p>
-      </div>
+        <div v-else-if="error" class="text-center py-12">
+          <p class="text-red-600">{{ error }}</p>
+        </div>
 
-      <div v-else>
-        <div ref="weekViewContainerRef">
-          <WeekView
-            v-show="viewMode === 'week'"
+        <div v-else-if="classes.length === 0" class="text-center py-12">
+          <p class="text-gray-600">No enrichment classes found for {{ activeGrade ? GRADE_LABELS[activeGrade] : 'this grade' }}.</p>
+        </div>
+
+        <div v-else>
+          <div ref="weekViewContainerRef">
+            <WeekView
+              v-show="viewMode === 'week'"
+              :time-slots="timeSlots"
+              :classes-by-day-and-time="classesByDayAndTime"
+              :minimized-session-ids="minimizedSet"
+              :get-status="getStatus"
+              @class-click="handleClassClick"
+              @minimize="handleMinimize"
+              @toggle-status="handleToggleStatus"
+            />
+          </div>
+
+          <DayView
+            v-show="viewMode === 'day'"
+            :selected-day="selectedDay"
             :time-slots="timeSlots"
             :classes-by-day-and-time="classesByDayAndTime"
             :minimized-session-ids="minimizedSet"
@@ -134,25 +170,13 @@ onMounted(() => {
             @class-click="handleClassClick"
             @minimize="handleMinimize"
             @toggle-status="handleToggleStatus"
+            @next-day="nextDay"
+            @previous-day="previousDay"
           />
+
+          <ViewToggle v-model="viewMode" />
         </div>
-
-        <DayView
-          v-show="viewMode === 'day'"
-          :selected-day="selectedDay"
-          :time-slots="timeSlots"
-          :classes-by-day-and-time="classesByDayAndTime"
-          :minimized-session-ids="minimizedSet"
-          :get-status="getStatus"
-          @class-click="handleClassClick"
-          @minimize="handleMinimize"
-          @toggle-status="handleToggleStatus"
-          @next-day="nextDay"
-          @previous-day="previousDay"
-        />
-
-        <ViewToggle v-model="viewMode" />
-      </div>
+      </template>
     </main>
 
     <ClassDetail

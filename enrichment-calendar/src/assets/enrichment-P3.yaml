@@ -1,0 +1,447 @@
+metadata:
+  scrapedAt: '2025-12-07T00:11:30.555Z'
+  campId: 502
+  campCode: cis
+  locationId: 1702
+  gradeFilter: P3
+  totalClasses: 30
+classes:
+  - name: 4/6-4/10 Preschool Spring Break Mini-Camp
+    gradeRange: Grades P2 - P4
+    sessionId: '531232'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=531232&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: ''
+    startDate: 4/6/2026
+    endDate: 4/10/2026
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Fee: $275 per day Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for April extended care, this care will be included with participation in a mini camp.'
+  - name: Social Emotional Learning Activities with Coach Douglass [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553476'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553476&campCode=cis
+    instructor: Coach Michele Douglass
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K-8th
+    cost: $900
+    programOverview: 'This class uses weekly themes, songs, engaging activities, puppets, and visual aids to help children better understand, manage, and express their emotions. They will also build empathy, develop positive relationships, and learn to make responsible decisions—all essential skills for lifelong success. Instructor: Coach Michele Douglass Fee: $900 Tuesday: (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9'
+  - name: Rabbit Hole’s Dress Up and Imagine [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553480'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553480&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Fee: $900 Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10.'
+  - name: Little Artists by Zhuang Laoshi [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553479'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553479&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Wednesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K-8th
+    cost: $995
+    programOverview: 'In this course, we encourage children to: Discover beauty in everyday life; Feel the emotions of color; Express the thoughts within their hearts. Each lesson is a little experiment in exploration—guiding children to find their own artistic voice through free and joyful creation. Fee: $995 Wednesday: (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10.'
+  - name: Maker’s Club [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553481'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553481&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/14/2026
+    endDate: 6/10/2026
+    numberOfClasses: 20
+    location: CAIS K-8th
+    cost: $960
+    programOverview: 'This exciting engineering program inspires students to pursue futures in science and technology. While working with Maker Kits, students build mechanical, artistic, and engineering skills and learn to act as inventors in their own right. They design remote-controlled hydraulic arms, learn to harness energy to power race cars, and experiment with structural design. Students keep their inventions and proudly share their projects with family and friends. Fee: $960 (20 classes) Jan. 14, 21, 28; Feb. 4, 11, 25; Mar. 4, 11, 18, 25; Apr. 1, 15, 22, 29; May 6, 13, 20, 27; Jun. 3, 10.'
+  - name: '[S26] Twinkle Treasures: Jewelry Making'
+    gradeRange: Grades P3 - P4
+    sessionId: '554507'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554507&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: $765
+    programOverview: 'Fee: $765 Thur (17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4'
+  - name: AcroSports [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553483'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553483&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Thursday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: $765.00
+    programOverview: 'AcroSports Offsite Classes bring the energy, creativity, and spirit of AcroSports straight to your school or community! Our dynamic programs introduce kids to the joy of movement through gymnastics, parkour, tumbling, breakdancing, and circus arts—building strength, coordination, balance, and confidence along the way. Led by experienced AcroSports coaches, our classes combine physical skill-building with creativity, teamwork, and self-expression. Each session is packed with fun challenges and progressive skill development, helping kids explore movement safely while having a blast. Whether in preschools, elementary schools, community centers, or after-school programs, AcroSports Offsite Classes bring the same quality instruction and excitement you know from our main gym—just in your neighborhood! What We Offer Our offsite classes introduce kids to the excitement of movement through a vibrant mix of gymnastics, tumbling, parkour, breakdancing, and circus arts. Each discipline builds coordination, confidence, and creativity in its own way—whether it’s learning rolls and balance skills in gymnastics, moving fluidly over obstacles in parkour, expressing rhythm and individuality through breakdancing, or discovering teamwork and performance in circus arts. Together, these experiences help children develop strength, agility, and imagination while having fun in a safe, supportive environment led by our passionate AcroSports coaches. Why Parents Love It - Builds physical literacy, confidence, and resilience - Encourages creative expression and teamwork - Flexible locations — we bring AcroSports to you! - A safe, engaging way for kids to stay active and have fun Fee: $ Thursday: (17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4 Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for September extended care, this care will be included with participation in a mini camp.'
+  - name: '[S26] The Design Thinking Adventure with Peng Laoshi in Chinese'
+    gradeRange: Grades P3 - P4
+    sessionId: '553485'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553485&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Friday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K-8th
+    cost: $700
+    programOverview: 'Fee: $700 Friday: (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5.'
+  - name: 'Sensory Art Explorers: Creative Process & Discovery [S26]'
+    gradeRange: Grades P3 - P4
+    sessionId: '554512'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554512&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K-8th
+    cost: $630
+    programOverview: 'Fee: $630 (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5.'
+  - name: Creative Clay with Dong Laoshi in Chinese [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '554084'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554084&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Through this hands-on process, children not only explore and express their creativity, but also strengthen their fine motor skills as they press, pinch, roll, and shape the clay. Creative Clay offers the perfect space for children to dream big, create freely, and learn through joyful, meaningful play! Fee: $900 Monday: (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1,8.'
+  - name: January Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527450'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527450&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 1/5/2026
+    endDate: 1/31/2026
+    location: CAIS K-8th
+    cost: $470.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: February Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527451'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527451&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 2/1/2026
+    endDate: 2/28/2026
+    location: CAIS K-8th
+    cost: $470.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: March Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527452'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527452&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 3/1/2026
+    endDate: 3/31/2026
+    location: CAIS K-8th
+    cost: $470.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: April Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527453'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527453&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 4/1/2026
+    endDate: 4/30/2026
+    location: CAIS K-8th
+    cost: $470.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: May Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527454'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527454&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 5/1/2026
+    endDate: 5/31/2026
+    location: CAIS K-8th
+    cost: $470.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: June Extended Care [Preschool]
+    gradeRange: Grades P2 - P4
+    sessionId: '527455'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=527455&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 6:00 PM
+    startDate: 6/1/2026
+    endDate: 6/30/2026
+    location: CAIS K-8th
+    cost: $250.00
+    programOverview: 6 p.m. The month of June will be free for all students signed up for extended care from September to May. Please use code 'FULLYEAR' to receive June Aftercare for Free if this applies to you. Monthly Auto Payment Plan Available at 'Payment Options' page select 'Other payment options' select 'Monthly Extended Care Plan' on each month
+  - name: Wacky Science [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553475'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553475&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K-8th
+    cost: $900
+    programOverview: 'Time: 3:30 - 4:30 PM Fee: $900 (18 classes) Jan. 12, 26; Feb. 2, 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11,18; Jun. 1,8.'
+  - name: Robocoding [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '554505'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554505&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: $850
+    programOverview: 'RoboCoding gives students a hands-on introduction to the fundamentals of both coding and robotics by challenging them to build and execute programs with real robots. Using award-winning Cubelets, students combine robotic cubes to craft machines that can light up, move, and interact with the world around them. Collaborating on coding activities reinforces life skills like teamwork and problem-solving, and completing challenges leaves students feeling confident and proud. Fee: $850 Thur (17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4'
+  - name: '3D Printing: Start + [S26]'
+    gradeRange: Grades P3 - P4
+    sessionId: '554511'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554511&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K-8th
+    cost: $700
+    programOverview: 'Nexplore 3D Printing Start+ empowers students to bring their imaginations into reality with 3Doodler pens. Each lesson combines a structured STEAM project with wiggle room to doodle, explore, and create their own ideas. Students might construct landforms to learn about geography or use geometry to make their own shapeshifters. Nexplore 3D Printing Start+ transforms STEM concepts into 3D projects and sparks joy as students watch science come to life. Fee: $700 Fri (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5'
+  - name: 2/17-2/20 Preschool February Break
+    gradeRange: Grades P2 - P4
+    sessionId: '531810'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=531810&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 9:00 AM - 3:30 PM
+    startDate: 2/17/2026
+    endDate: 2/20/2026
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Fee: $275 per day Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for February extended care, this care will be included with participation in a mini camp.'
+  - name: 3/27 Preschool Parent Teacher Conference Mini-Camp
+    gradeRange: Grades P2 - P4
+    sessionId: '531812'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=531812&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: ''
+    startDate: ''
+    endDate: ''
+    location: CAIS K-8th
+    cost: $275.00
+    programOverview: 'Fee: $275 per day Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for March extended care, this care will be included with participation in a mini camp.'
+  - name: 4/2-4/3 Preschool In-Service Day Mini-Camp
+    gradeRange: Grades P2 - P4
+    sessionId: '531813'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=531813&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: 9:00 AM - 3:30 PM
+    startDate: 4/2/2026
+    endDate: 4/3/2026
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Fee: $275 per day Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for April extended care, this care will be included with participation in a mini camp.'
+  - name: 5/22 Preschool In-Service Day
+    gradeRange: Grades P2 - P4
+    sessionId: '531816'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=531816&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P2 - P4
+    dayOfWeek: ''
+    time: ''
+    startDate: ''
+    endDate: ''
+    location: CAIS K-8th
+    cost: $275.00
+    programOverview: 'Fee: $275 per day Extended care from 3:30 - 6:00 p.m. is $35 per day. If your child is signed up for May extended care, this care will be included with participation in a mini camp.'
+  - name: Baking Basics & Themed Treats – A Hands-On Class for Little Chefs [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '554478'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554478&campCode=cis
+    instructor: Chef Mo
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 20
+    location: CAIS K-8th
+    cost: $1260
+    programOverview: 'Throughout the course, your little chef will gain confidence in the kitchen as they learn foundational baking skills and explore the science behind both sweet and savory treats. Each week, we’ll focus on core techniques such as: Measuring by weight vs. volume Properly creaming butter and sugar Making and rolling various doughs Whisking and folding Piping with pastry bags and tips Ingredient functions and substitutions Little bakers will whip up a variety of tasty treats, including muffins, scones, cookies, cupcakes, mini pies, and more—all in a safe, supportive, and mess-friendly environment where creativity can flourish. No prior experience is required—just a love of baking and a big imagination! Instructor: Chef Mo Fee: $1260 (20 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9'
+  - name: Springtime Stitch and Create with Ms Fiona [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '553478'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553478&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Tuesday
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/13/2026
+    endDate: 6/9/2026
+    numberOfClasses: 18
+    location: CAIS K-8th
+    cost: $1238
+    programOverview: 'Let your little one bloom this spring in Springtime Stitch & Create, a playful sewing and crafting class just for Preschool kids! Each week, children will explore hands-on activities like beginner hand-stitching, easy beading, folding, and twisting to create spring-themed projects—think felt flowers, fluffy chicks, bunny puppets, and other joyful makes. This class is all about building fine motor skills, boosting creativity, and giving kids the satisfaction of finishing something they made—all in a fun, nurturing environment. Perfect for little hands and busy parents who want a creative outlet that’s both enriching and mess-free at home! Fee: $1238 Tuesday: (18 classes) Jan. 13, 20, 27; Feb. 3, 24; Mar. 3, 10, 24, 31; Apr. 14, 21, 28; May 5, 12, 19, 26; Jun. 2, 9, NO CLASS on Feb 10, Mar 17'
+  - name: 'Toyology: Explore S.T.E.A.M. Through Toys! [S26]'
+    gradeRange: Grades P3 - P4
+    sessionId: '554487'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554487&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/13/2026
+    endDate: 5/26/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: ''
+    programOverview: 'Fee: $850 Tue (17 classes) Jan. 13, 20, 27; Feb. 3, 10, 24; Mar. 3, 10, 17, 24; Apr. 14, 21, 28; May 5, 12, 19, 26;'
+  - name: Preschool AcroSports [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '554500'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554500&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:30 PM - 4:30 PM
+    startDate: 1/15/2026
+    endDate: 6/4/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: $765
+    programOverview: 'AcroSports Offsite Classes bring the energy, creativity, and spirit of AcroSports straight to your school or community! Our dynamic programs introduce kids to the joy of movement through gymnastics, parkour, tumbling, breakdancing, and circus arts—building strength, coordination, balance, and confidence along the way. Led by experienced AcroSports coaches, our classes combine physical skill-building with creativity, teamwork, and self-expression. Each session is packed with fun challenges and progressive skill development, helping kids explore movement safely while having a blast. Whether in preschools, elementary schools, community centers, or after-school programs, AcroSports Offsite Classes bring the same quality instruction and excitement you know from our main gym—just in your neighborhood! What We Offer Our offsite classes introduce kids to the excitement of movement through a vibrant mix of gymnastics, tumbling, parkour, breakdancing, and circus arts. Each discipline builds coordination, confidence, and creativity in its own way—whether it’s learning rolls and balance skills in gymnastics, moving fluidly over obstacles in parkour, expressing rhythm and individuality through breakdancing, or discovering teamwork and performance in circus arts. Together, these experiences help children develop strength, agility, and imagination while having fun in a safe, supportive environment led by our passionate AcroSports coaches. Why Parents Love It - Builds physical literacy, confidence, and resilience - Encourages creative expression and teamwork - Flexible locations — we bring AcroSports to you! - A safe, engaging way for kids to stay active and have fun Fee: $765 Thurs(17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4'
+  - name: 'Bucketeers: Preschool Percussion for Kids [S26]'
+    gradeRange: Grades P3 - P4
+    sessionId: '553473'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=553473&campCode=cis
+    instructor: Eric Wu
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: Monday
+    time: 3:30 PM - 4:00 PM
+    startDate: 1/12/2026
+    endDate: 6/8/2026
+    numberOfClasses: 18
+    location: CAIS K-8th
+    cost: $720
+    programOverview: 'Drummers will be introduced to several music skills and concepts throughout the session including: Stick Technique | Dynamics | Song Structure | Improvisation | Call & Response | Tempo | Melody | Timbre Instructor: Eric Wu Fee: $720 Monday: (18 classes) Jan. 12, 26; Feb. 9, 23; Mar. 2, 9, 16, 23, 30; Apr. 13, 20, 27; May 4, 11, 18; Jun. 1,8. No Class on Feb. 2'
+  - name: '[S26] Dance and Creative Movement by JAMaROO'
+    gradeRange: Grades P3 - P4
+    sessionId: '554476'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554476&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:45 PM - 4:15 PM
+    startDate: 1/15/2026
+    endDate: 6/9/2026
+    numberOfClasses: 17
+    location: CAIS K-8th
+    cost: $595
+    programOverview: 'Come fly like a butterfly, hop like a bunny, stomp like an elephant, and tip toe like a mouse! In the JAMaROO Kids Dance and Creative Movement Classes, children are introduced to the basics of dance. Classes include a warm-up circle, stretching games, imaginative dance, partner dance, and free dance. Throughout the year, students will build their dance repertoire by adding: combination steps, body isolations, and layers of movement, keeping them challenged and engaged. Dance and creative movement is a wonderful way to foster self expression, while building gross motor skills, which we know are so essential to a child''s ability to be independent and confident! In all of our JAMaROO Kids classes children are introduced to different genres of music from around the world, and are encouraged to use their imaginations. Each month we will focus on music & dance moves from a different part of the world. At JAMaROO Kids all of our music, dance is developed to support and foster all five key areas of development: Cognitive, Speech & Language, Gross Motor Development, Fine Motor Development, Social and Emotional. Fee: $595 Thur(17 classes) Jan. 15, 22, 29; Feb. 5, 26; Mar. 5, 12, 19, 26; Apr. 16, 23, 30; May 7, 14, 21, 28; Jun. 4'
+  - name: JAMaROO Kids Yoga [S26]
+    gradeRange: Grades P3 - P4
+    sessionId: '554509'
+    sessionDetailUrl: https://www.ultracamp.com/info/sessionDetail.aspx?idCamp=502&idSession=554509&campCode=cis
+    instructor: Unknown
+    instructorBackground: ''
+    gradeLevels: Grades P3 - P4
+    dayOfWeek: ''
+    time: 3:45 PM - 4:15 PM
+    startDate: 1/16/2026
+    endDate: 6/5/2026
+    numberOfClasses: 14
+    location: CAIS K-8th
+    cost: $500
+    programOverview: 'Come take a deep breath and feel the Earth under your feet as you stretch up tall like a humongous Oak Tree! In our JAMaROO Kids Yoga classes, children go on a yoga adventure using their imaginations and the art of storytelling to help navigate through yoga poses. Our destinations include hiking in the mountains, diving in the Great Barrier Reef, going on a Safari in Africa, or sledding in the North Pole. On our journey, we play yoga games, sing yoga songs, and practice breathing techniques. Our goal is to give young children a developmentally appropriate way to explore yoga poses, mindfulness, and social emotional learning. Each month, we’ll focus on a different seasonal curriculum to keep classes fun and exciting, and also to help our students stay engaged and challenged throughout the year. At JAMaROO Kids all of our music, dance, and yoga curriculum is developed to support and foster all five key areas of development: Cognitive, Speech, & Language, Gross Motor Development, Fine Motor Development, Social and Emotional. Fee: $500 Fri (14 classes) Jan. 16, 23, 30; Feb. 6, 27; Mar. 6, 13; Apr. 17, 24; May 1, 8, 15, 29; Jun. 5.'

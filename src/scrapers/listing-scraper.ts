@@ -18,6 +18,7 @@ export class ListingScraper {
 
   private buildListingUrl(config: ScraperConfig): string {
     const { idCamp, campCode, idLocation } = config;
+    // Support multiple location IDs (comma-separated)
     return `https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=${idCamp}&campCode=${campCode}&idLocation=${idLocation}`;
   }
 
@@ -46,7 +47,9 @@ export class ListingScraper {
 
         // Look for grade in the surrounding text
         let gradeRange = '';
-        const gradeMatch = siblingText.match(/Grades?\s+[A-Za-z0-9\s\-]+/i);
+        // Match "Grade X" or "Grades X - Y" where X/Y are valid grade patterns (P2-P4, K, TK, 1st-8th)
+        // Valid patterns: P2, P3, P4, K, TK, 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th
+        const gradeMatch = siblingText.match(/Grades?\s+(P[234]|TK|K|[1-8](?:st|nd|rd|th))(?:\s*-\s*(P[234]|TK|K|[1-8](?:st|nd|rd|th)))?/i);
         if (gradeMatch) {
           gradeRange = cleanText(gradeMatch[0]);
         }
